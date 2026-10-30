@@ -12,7 +12,12 @@
     "evidence_state": "contradiction/ambiguity/missing-reporting/not-inspected/methodological-failure",
     "locator": "Exact reviewed passage/display/source",
     "action": "Concrete repair, source inspection, or author decision",
+    "owner": "One editor or reviewer responsible for the next action",
+    "affected_sections": "Section IDs requiring reconciliation after the repair",
+    "affected_roles": "Reviewers needed for a fresh targeted verification round",
+    "opened_round": "Round where this finding was first observed; retain its stable finding ID",
     "status": "open/in-progress/verified-closed",
-    "resolution": "Changed revision, observed repair and verification location; keep unresolved blockers open"
+    "resolution": "Changed revision, observed repair and verification location; keep unresolved blockers open",
+    "closure_evidence": "Current input hashes, verification report path and exact observed repair; a higher score alone is insufficient"
   }
 }

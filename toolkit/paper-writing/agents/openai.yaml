@@ -1,6 +1,6 @@
 interface:
   display_name: "Scientific Paper Writing"
-  short_description: "Write clear, consistent, evidence-grounded papers"
-  default_prompt: "Use $paper-writing to review my manuscript for argument, evidence, jargon, terminology consistency, and reader understanding."
+  short_description: "Iterative, evidence-grounded manuscript review"
+  default_prompt: "Use $paper-writing to iteratively revise my manuscript with independent reviewers, verify supported fixes, and report unresolved evidence."
 policy:
   allow_implicit_invocation: true

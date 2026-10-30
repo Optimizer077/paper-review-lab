@@ -14,6 +14,16 @@ python -m unittest discover -s validation -p 'test*.py' -v
 
 The examples contain explicitly invented data for software validation. Generated review packets are tasks, not completed reviews. Audit passes, declared evidence, and editorial scores do not verify scientific truth or predict acceptance.
 
+## Iterative multi-agent revision
+
+Use [the iterative workflow](paper-writing/references/iterative-review.md) for bounded review/revise/verify rounds, independent reviewers, a fresh-context blind reader and verified issue closure. The configurable defaults allow at most three rounds and stop after two consecutive rounds without substantive progress. Keep a single manuscript editor and immutable round records; the [state template](paper-writing/assets/iteration-state-template.json) supports resumption. The agent runtime dispatches reviewers; Python creates and checks packets.
+
+```sh
+python paper-writing/scripts/paper_harness.py plan examples/manuscript.md --context examples/project.json --select-roles argument,evidence,readability --out review/round-01/plan.json
+```
+
+Select a subset of the ten bundled roles or supply a nonempty custom role catalog. Merge requires every selected role and matching manuscript/context hashes. Subsequent rounds use fresh packets for affected roles, preserve unresolved evidence and stop with the actual reason. Scoring is opt-in; score increases do not close findings.
+
 The manuscript rubric defines 24 anchored criteria across five domains, with empirical ML, theory, clinical, and systematic-review contribution profiles. Choose the relevant profile, supply inspected evidence and rationale, and report coverage and blockers alongside scores.
 
 The scorer also includes an explicit aggressive scoring policy in `paper-writing/assets/scoring-policies.json`; consult `score_evaluation.py --help` and the scorecard for selection and interpretation. The aggressive policy changes scoring expectations, not the scientific evidence available.

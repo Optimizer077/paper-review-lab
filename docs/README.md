@@ -28,7 +28,7 @@ it. The website does not read manuscripts or call an AI service.
 
 ## Verification
 
-From the repository root, Python 3.10+ runs the portable toolkit tests (122 pass; one private-cache check is skipped):
+From the repository root, Python 3.10+ runs the portable toolkit tests (134 pass; one private-cache check is skipped):
 
 ```sh
 python -m unittest discover -s toolkit/validation -p 'test_*.py' -q
@@ -84,3 +84,7 @@ Before updating an entry, inspect the original provider and record its verificat
 ```sh
 python toolkit/paper-writing/scripts/validate_writing_resources.py toolkit/paper-writing/references/writing-resources.json
 ```
+
+## Iterative skill and visual identity
+
+The published toolkit includes selected reviewer plans, bounded review/revise/verify rounds, fresh-context blind reading and resumable state. Keep the writing-page commands aligned with the harness. The shared manuscript-and-revision logo is `favicon.svg`; the README has light and dark SVG artwork under `.github/assets/`. Palette: midnight/slate foundations, indigo emphasis and mint revision markers. GitHub README colors are supplied through SVGs and badges because GitHub sanitizes custom CSS.

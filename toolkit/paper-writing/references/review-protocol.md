@@ -6,13 +6,13 @@ Use a proportionate review. A sentence edit seldom benefits from ten reviewers; 
 
 Identify the manuscript version, project-context revision, available figures/supplement, and evidence access. Keep a claim ledger with supporting passages and locators. The harness distinguishes `supported`, `pending`, and `unsupported` declarations; keep tentative interpretations pending until their status is resolved. Each consequential source still needs inspection; a registered ID proves neither existence nor entailment.
 
-Generate packets using the harness `plan` command. It writes individual role packets and a plan manifest. Dispatch the individual files using the runtime's actual agent facility; the Python CLI itself does not launch models. Run in waves within the available concurrency, and record actual launches, completions, access failures, and output locations. Never describe generated packets or proposed roles as completed agents.
+Generate packets using the harness `plan` command. Select the useful roles with `--select-roles argument,evidence,readability`, or supply a nonempty custom `--roles` file. It writes individual role packets and a plan manifest. Dispatch the individual files using the runtime's actual agent facility; the Python CLI itself does not launch models. Run in waves within the available concurrency, and record actual launches, completions, access failures, and output locations. Never describe generated packets or proposed roles as completed agents.
 
-Ten roles cover argument, abstract/introduction, methods, references, evidence, terminology, readability, figures, limitations, and venue. They may be combined for a smaller task. If using the harness's ten-role merge, all ten role results are necessary to complete that particular plan.
+The ten bundled roles cover argument, abstract/introduction, methods, references, evidence, terminology, readability, figures, limitations, and venue. A selected plan requires results from every role it actually lists. The default plan still uses all ten. A missing reviewer stays missing; do not remove a role from a saved plan to manufacture completion. Generate a new honestly scoped plan if the review scope changes.
 
 ## Preserve the blind reader pass
 
-Give the readability reviewer only the manuscript and reading instructions initially. Do not supply the author's thesis, intended claim ledger, other reviews, or a worked answer. Ask for a brief teach-back of:
+Create the readability reviewer with a fresh context (`fork_turns="none"` when supported) and give it only the manuscript and reading instructions initially. An agent that inherits the author's thesis or earlier critiques is already informed. Do not supply the author's thesis, intended claim ledger, other reviews, or a worked answer. Ask for a brief teach-back of:
 
 1. The specific question and why it matters.
 2. The proposed mechanism or approach.
@@ -39,6 +39,8 @@ Missing reporting and invalid methods are different findings. Identify which was
 The editor compares the passages and actual sources, consolidates duplicates, and separates contradictory judgments from different preferences. Neither majority agreement nor the number of agents establishes correctness. Preserve a justified dissent and its unresolved evidence.
 
 Fix supported scientific blockers first, then ambiguous terms and reasoning, then optional prose polish. Keep the author's facts, uncertainty and stance. After revisions, rerun affected mechanical checks and obtain fresh reviews for affected claims; the harness uses manuscript/context hashes to reject stale review files. Do not relabel an old review as current.
+
+For repeated rounds, use [the iterative workflow](iterative-review.md). Keep a single editor, immutable round inputs, stable finding IDs and evidence for each closure. Re-review the affected roles and dependent sections using new packets. Preserve the best supported revision and stop with the actual reason when evidence, progress or the agreed round budget is exhausted.
 
 An agent may perform semantic review when it actually has the necessary evidence and competence. Use `unverified` or `needs_review` for inaccessible or insufficient evidence. Do not claim a human reviewed something merely because a model generated a semantic judgment. Conversely, ordinary editing does not require a universal human-signoff barrier.
 

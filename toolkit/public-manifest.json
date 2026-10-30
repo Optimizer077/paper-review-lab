@@ -1,13 +1,13 @@
 {
-  "bytes_excluding_manifest": 10892335,
+  "bytes_excluding_manifest": 10928296,
   "created_by": "paper-writing-public-export-v1",
   "distribution": "metadata_only_public_toolkit",
-  "file_count_excluding_manifest": 68,
+  "file_count_excluding_manifest": 71,
   "files": [
     {
-      "bytes": 4285,
+      "bytes": 5397,
       "path": "README.md",
-      "sha256": "d511773ab85c06e9388bbf74aec18f686909b29d8321973b394a8d14b7d7d921"
+      "sha256": "eadc357081912cc025877b7b11bc6038a2d45bc03f68109c42f9804c15b08a18"
     },
     {
       "bytes": 3251,
@@ -25,19 +25,24 @@
       "sha256": "5ee8ec5dfe70b87b9136860e42f5e30f1c36139aaecd1508280eb9bfbef89a7b"
     },
     {
-      "bytes": 8585,
+      "bytes": 11407,
       "path": "paper-writing/SKILL.md",
-      "sha256": "9f1b1e8a86224012842b1eb61300e41ed910c6cd6e776e2d81c64cf52d0fae54"
+      "sha256": "b57d1c798cd36375d7c8a1833bf8ccdfa3e9d6583210e62315f92aa3d18e41c7"
     },
     {
-      "bytes": 315,
+      "bytes": 325,
       "path": "paper-writing/agents/openai.yaml",
-      "sha256": "0959d5adc98e56abfdfc4ab087ad539b573227652efa4546e721015d98f5ba4d"
+      "sha256": "bcebb004003c57fd02404400d40f525bb696f4669998b0a886f5a985e12675b6"
     },
     {
       "bytes": 1946,
       "path": "paper-writing/assets/category-review-map.json",
       "sha256": "4f8073d8bd58e4d59b6ea94d2e14ef8db1feeb26fa01db0e6b5c5a932f5c66cb"
+    },
+    {
+      "bytes": 1100,
+      "path": "paper-writing/assets/iteration-state-template.json",
+      "sha256": "e99079623929ccc5611a963ca337abeebcc368367bfd2a2ead4782beb6541bc7"
     },
     {
       "bytes": 9566,
@@ -60,9 +65,9 @@
       "sha256": "b128a203e60d9321c4a9ae104bf388aa0c4dd4b4b420c2a0e376e253d6cd4057"
     },
     {
-      "bytes": 743,
+      "bytes": 1213,
       "path": "paper-writing/assets/revision-ledger-template.json",
-      "sha256": "ad87cc166ad3669fda2f4bfc7cbedcaa9b8f67fd1c97efb360d927077ce356d4"
+      "sha256": "aac50483e13e28cb4bcbd4a1e75e7fbfcc79f61c6bcab4c97d123ff197477a08"
     },
     {
       "bytes": 648,
@@ -95,9 +100,9 @@
       "sha256": "d33d115b869f026aaade2a4071598b2e328c237484013d862388fe065fbc0e1d"
     },
     {
-      "bytes": 7166,
+      "bytes": 7562,
       "path": "paper-writing/references/evaluation-protocol.md",
-      "sha256": "7014c179ed467ee043e848ea60213e18e94209d141bac800dab6867df1d2998a"
+      "sha256": "ae53f5674e702c45d550e4a38ab4d4f7d216b6703f097631b4323c3355873ed5"
     },
     {
       "bytes": 8725,
@@ -110,9 +115,9 @@
       "sha256": "dc09652de3b8fe498cb634cafe376025136c7d68d0c19b6e35c4593cee796cce"
     },
     {
-      "bytes": 12932,
+      "bytes": 14237,
       "path": "paper-writing/references/harness-guide.md",
-      "sha256": "21135ab3bb01249c608fd9f050c40257bcb97e13beb62727c1b745c5c3d6cafc"
+      "sha256": "7065b94a5c3c3434d48de08dd92d0dcf2fb05cd0666b2c6d9ad7c33d3e924492"
     },
     {
       "bytes": 10919,
@@ -120,14 +125,19 @@
       "sha256": "145c18f18a6305bb1711a15a5d9f8856995ea41d9a5c366372a5954411d6b360"
     },
     {
+      "bytes": 12920,
+      "path": "paper-writing/references/iterative-review.md",
+      "sha256": "45bf4b88f1ec807d7e1ac941a22185b31ed0d6c0e2091151bb17a4c828c0629a"
+    },
+    {
       "bytes": 4112,
       "path": "paper-writing/references/research-basis.md",
       "sha256": "2ddd878a7e55203f578d6393e16f9ee2d22783fb8de693fca9d2e1893c9a9dce"
     },
     {
-      "bytes": 6841,
+      "bytes": 7626,
       "path": "paper-writing/references/review-protocol.md",
-      "sha256": "9dc4e99a80d24eeb001f1136025c2438822d80aac80bb4a1ded65309c5f6f52a"
+      "sha256": "428fadc31ac14f7e9ed1b85633f95a9fe407ec1c3ea666355b966d1e08358ae0"
     },
     {
       "bytes": 17086,
@@ -210,9 +220,9 @@
       "sha256": "2d77c6bdcd3a59bc228cb3ef7405d20561d8eb4aae97f6e03a55c71d31a49c6a"
     },
     {
-      "bytes": 35029,
+      "bytes": 39089,
       "path": "paper-writing/scripts/paper_harness.py",
-      "sha256": "8c985f8a0ff5454d96efcdbe4e463ab0ca9018980db986fad2232e7f95427065"
+      "sha256": "7b5f896000c88e20d39ce7f3939e40f518aae295328865435966ff6d5c55cbe4"
     },
     {
       "bytes": 44365,
@@ -225,9 +235,9 @@
       "sha256": "aab5433d2c36f6f4610086268f02226f172f2f02adcb3cbe24488e111ff205f1"
     },
     {
-      "bytes": 21442,
+      "bytes": 22725,
       "path": "publish_toolkit.py",
-      "sha256": "f3a155fa74ed442f92931424a024a3add190589a7f51550067ad1779164d8e87"
+      "sha256": "31029c8ada71cb6b2a2f5e2318137179b30bd7faa1b70a3efd3c4a0ae1a14771"
     },
     {
       "bytes": 10440,
@@ -303,6 +313,11 @@
       "bytes": 8218,
       "path": "validation/test_aggressive_independent.py",
       "sha256": "a78c828999ce30667d1a8f072541dfa30c1fc6586fb87f70dc18c7d843b43471"
+    },
+    {
+      "bytes": 9698,
+      "path": "validation/test_iterative_harness.py",
+      "sha256": "22e9ffbe7fd2bcb71dd10dd4f82f273dcde2611bb23330988ace093fddd8122b"
     },
     {
       "bytes": 15996,

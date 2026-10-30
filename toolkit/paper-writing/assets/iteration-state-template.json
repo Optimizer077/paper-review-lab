@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "status": "not_started",
+  "subject": {
+    "id": null,
+    "requested_scope": null,
+    "contribution_profile": null
+  },
+  "limits": {
+    "max_rounds": 3,
+    "max_consecutive_no_progress_rounds": 2,
+    "user_time_limit_minutes": null,
+    "user_cost_limit": null
+  },
+  "team": {
+    "mode": "multi_agent",
+    "coordinator": null,
+    "single_manuscript_editor": true,
+    "observed_total_capacity": null,
+    "available_reviewer_slots": null,
+    "selected_role_ids": [],
+    "delegation_limitations": []
+  },
+  "current_revision": {
+    "id": null,
+    "manuscript_path": null,
+    "manuscript_sha256": null,
+    "context_path": null,
+    "context_sha256": null
+  },
+  "best_supported_revision": {
+    "id": null,
+    "manuscript_path": null,
+    "manuscript_sha256": null,
+    "context_path": null,
+    "context_sha256": null,
+    "selection_reason": null
+  },
+  "consecutive_no_progress_rounds": 0,
+  "rounds": [],
+  "findings": [],
+  "run_log": [],
+  "stop": {
+    "reason": null,
+    "rationale": null,
+    "unresolved_finding_ids": [],
+    "remaining_work": []
+  }
+}
