@@ -1,32 +1,122 @@
 {
-  "total_records": 300,
+  "version": 1,
+  "total_records": 10000,
   "cutoff_year": 2022,
   "counts": {
-    "BMJ": 10,
-    "CVPR": 75,
-    "ICCV": 25,
-    "ICLR": 50,
-    "ICML": 25,
-    "JAMA": 10,
-    "NEJM": 10,
-    "Nature": 5,
-    "Nature Medicine": 5,
-    "NeurIPS": 75,
-    "The Lancet": 10
+    "BMJ": 200,
+    "CVPR": 2500,
+    "ICCV": 1000,
+    "ICLR": 1500,
+    "ICML": 2000,
+    "JAMA": 200,
+    "NEJM": 200,
+    "Nature": 100,
+    "Nature Medicine": 100,
+    "NeurIPS": 2000,
+    "The Lancet": 200
   },
   "years": {
-    "2018": 10,
-    "2019": 22,
-    "2020": 86,
-    "2021": 98,
-    "2022": 84
+    "2018": 200,
+    "2019": 700,
+    "2020": 2868,
+    "2021": 3367,
+    "2022": 2865
   },
-  "specialist_papers_inspected_at_abstract_or_selected_section_level": 18,
+  "venue_year_counts": {
+    "CVPR": {
+      "2020": 834,
+      "2021": 833,
+      "2022": 833
+    },
+    "ICCV": {
+      "2019": 500,
+      "2021": 500
+    },
+    "NeurIPS": {
+      "2020": 667,
+      "2021": 667,
+      "2022": 666
+    },
+    "ICML": {
+      "2020": 667,
+      "2021": 667,
+      "2022": 666
+    },
+    "ICLR": {
+      "2020": 500,
+      "2021": 500,
+      "2022": 500
+    },
+    "NEJM": {
+      "2018": 40,
+      "2019": 40,
+      "2020": 40,
+      "2021": 40,
+      "2022": 40
+    },
+    "The Lancet": {
+      "2018": 40,
+      "2019": 40,
+      "2020": 40,
+      "2021": 40,
+      "2022": 40
+    },
+    "JAMA": {
+      "2018": 40,
+      "2019": 40,
+      "2020": 40,
+      "2021": 40,
+      "2022": 40
+    },
+    "BMJ": {
+      "2018": 40,
+      "2019": 40,
+      "2020": 40,
+      "2021": 40,
+      "2022": 40
+    },
+    "Nature Medicine": {
+      "2018": 20,
+      "2019": 20,
+      "2020": 20,
+      "2021": 20,
+      "2022": 20
+    },
+    "Nature": {
+      "2018": 20,
+      "2019": 20,
+      "2020": 20,
+      "2021": 20,
+      "2022": 20
+    }
+  },
+  "quotas": {
+    "CVPR": 2500,
+    "ICCV": 1000,
+    "NeurIPS": 2000,
+    "ICML": 2000,
+    "ICLR": 1500,
+    "NEJM": 200,
+    "The Lancet": 200,
+    "JAMA": 200,
+    "BMJ": 200,
+    "Nature Medicine": 100,
+    "Nature": 100
+  },
+  "retained_initial_collection_records": 300,
+  "distribution": "citation_metadata_only",
+  "abstract_records": 0,
+  "fulltext_downloaded": 0,
+  "new_selected_section_inspections": 0,
   "complete_paper_scientific_reviews_claimed": 0,
+  "original_300_selected_section_inspections": 18,
+  "corpus_sha256": "0c2780e1dec887cd403dab8a7148c1e08486eb6c6ad37dfc3ef65fceca52dae7",
+  "source_of_truth": "papers.jsonl",
+  "validated_at": "2026-10-30T00:27:32.410457+00:00",
   "limits": [
-    "Explicit venue selection, not an objective ranking or representative sample.",
-    "Collected abstracts and downloaded bodies do not imply semantic reading or scientific validation.",
-    "Current submission guidance is separate from the historical paper corpus."
+    "Explicit venue/year-stratified convenience selection, not an objective ranking or representative sample.",
+    "Citation metadata collection is distinct from abstract reading, article download or scientific review.",
+    "The original 300-paper collection and its inspection notes remain separately documented."
   ],
   "category_count": 24,
   "domain_count": 5,
@@ -34,6 +124,6 @@
   "original_fulltext_downloads": 238,
   "site_hosts_article_bodies": false,
   "site_hosts_abstracts": false,
-  "source_scope": "Citation metadata only. Local collection had 300 abstracts and 238 bodies; download is not semantic review.",
+  "source_scope": "10,000 citation records; no new semantic reviews. Original 300-paper collection and 18 selected inspections remain separate.",
   "scoring_calibration": "Original editorial policy; no prospective real-manuscript calibration or acceptance model."
 }

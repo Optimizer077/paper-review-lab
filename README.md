@@ -8,7 +8,7 @@ An evidence-backed manuscript review workbench and portable writing toolkit. Mak
 
 - **24 anchored criteria across five domains**, adapted to four contribution profiles: empirical ML, theory, clinical research, and systematic reviews.
 - **Transparent scoring** with evidence, rationale, coverage, confidence, domain results, and critical blockers. Aggressive mode preserves the raw score and applies the lowest triggered score cap.
-- **A local browser workbench** for manual assessment, JSON import/export, rubric exploration, and a searchable library of **300 citation metadata records from 2018–2022**.
+- **A local browser workbench** for manual assessment, JSON import/export, rubric exploration, and a searchable library of **10,000 citation metadata records from 2018–2022**.
 - **A Python toolkit** for mechanical manuscript audits, versioned scorecards, and task packets for **ten independent reviewer roles**.
 
 The website and core command-line tools have no AI backend. A person or capable agent must inspect the manuscript and its evidence. Generated packets are review tasks; they are not completed reviews. Browser entries remain in the tab, with no automatic saving—export your JSON before closing it.
@@ -40,7 +40,7 @@ See the [harness guide](toolkit/paper-writing/references/harness-guide.md) and [
 
 ## Verification
 
-The portable toolkit has 98 unit tests. The browser parity check covers 176 fictional scenarios across the four bundled integer-weight profiles and requires Node.js 20+ alongside Python 3.10+.
+The portable toolkit passes 110 tests; one additional local-cache-only check is skipped in the public export. The browser parity check covers 176 fictional scenarios across the four bundled integer-weight profiles and requires Node.js 20+ alongside Python 3.10+.
 
 ```sh
 python -m unittest discover -s toolkit/validation -p 'test_*.py' -q
@@ -56,3 +56,5 @@ The historical library hosts citation metadata and original editorial notes; it 
 Scoring thresholds are editorial conventions without prospective real-manuscript calibration. A score, audit pass, or completed assessment does not certify scientific validity, establish submission readiness, or predict acceptance.
 
 GitHub Pages serves the buildless site from `main:/docs`. See [site maintenance and provenance](docs/README.md) for deployment details.
+
+The expanded [10,000-record registry](toolkit/research/library-10000/papers.jsonl), [venue/year counts](toolkit/research/library-10000/summary.json) and [collection report](toolkit/research/library-10000/collection-report.md) document 9,000 conference papers and 1,000 journal papers, including all 300 initial citation IDs. Metadata collection adds no new semantic-reading or scientific-review claims.

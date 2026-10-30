@@ -7448,5 +7448,13 @@
     }
   ],
   "local_synthesis_records": [],
-  "limits": "Only historical_paper entries constitute the 300-paper writing-example sample. Editorial/methodological guidance and current compliance sources are separately identified. Download is not semantic reading."
+  "limits": "Only historical_paper entries constitute the 300-paper writing-example sample. Editorial/methodological guidance and current compliance sources are separately identified. Download is not semantic reading.",
+  "expanded_resource_library": {
+    "records": 10000,
+    "cutoff_year": 2022,
+    "registry": "../../research/library-10000/papers.jsonl",
+    "level": "citation metadata only",
+    "new_semantic_reviews": 0,
+    "initial_collection_retained": 300
+  }
 }

@@ -1,13 +1,13 @@
 {
-  "bytes_excluding_manifest": 1213055,
+  "bytes_excluding_manifest": 10773453,
   "created_by": "paper-writing-public-export-v1",
   "distribution": "metadata_only_public_toolkit",
-  "file_count_excluding_manifest": 52,
+  "file_count_excluding_manifest": 61,
   "files": [
     {
-      "bytes": 3205,
+      "bytes": 3851,
       "path": "README.md",
-      "sha256": "ae17717c60e0cbee4c4054b9c0575326bf51b38af2882353024a6c4afdf39df8"
+      "sha256": "f34a7c806889d01bd090cac54f643dd0f6ac376c99d0a3952c37431f02e38a00"
     },
     {
       "bytes": 3251,
@@ -25,9 +25,9 @@
       "sha256": "5ee8ec5dfe70b87b9136860e42f5e30f1c36139aaecd1508280eb9bfbef89a7b"
     },
     {
-      "bytes": 7932,
+      "bytes": 8153,
       "path": "paper-writing/SKILL.md",
-      "sha256": "cd8fb9589f8d59f21cbc6111889542a69ca9a48540d6d2245ba1fdf0c8dc5e13"
+      "sha256": "42c60ca75831e77f97a19fc89581142315abf772a1eaf7cc49dbf7a5c7af6273"
     },
     {
       "bytes": 315,
@@ -120,9 +120,9 @@
       "sha256": "145c18f18a6305bb1711a15a5d9f8856995ea41d9a5c366372a5954411d6b360"
     },
     {
-      "bytes": 3220,
+      "bytes": 3615,
       "path": "paper-writing/references/research-basis.md",
-      "sha256": "ac2c6e559ecb97372f30f176e4f7422cb3a21674bbad259ecdeae58ce2e99103"
+      "sha256": "bcc10949b44fe9dcec76b241b805e4b2a45bb3756b433c5c2bf10dad4ca0f0c3"
     },
     {
       "bytes": 6841,
@@ -135,9 +135,9 @@
       "sha256": "3bb0f407d3cbf04b431fd60cc5a353e231dfb8afed715f3b92f4d0c666b05477"
     },
     {
-      "bytes": 367117,
+      "bytes": 367372,
       "path": "paper-writing/references/sources.json",
-      "sha256": "09fa5a91b2daee56f4c5cf0bc9db2bc9ae7752ff66d00d17a982ca83137d132d"
+      "sha256": "e0487b08cbb1711880bf1069c13a1669f79422d5d87724edd362a34a53ca4076"
     },
     {
       "bytes": 6447,
@@ -170,6 +170,26 @@
       "sha256": "e64ff6f16a2d972d1ae1607df4ecf9e6b5eb70e60af61125308d39fe45951a09"
     },
     {
+      "bytes": 12600,
+      "path": "paper-writing/scripts/collect_library.py",
+      "sha256": "9c913ada89c6918350e739e1cad1fdcd75bb382caa81c6c3c67477bcfa0152bf"
+    },
+    {
+      "bytes": 15674,
+      "path": "paper-writing/scripts/collect_library_cv.py",
+      "sha256": "fa32bf00ed02f129705a93cff0ef0d79e45e910eba0b3afd818640ff6edf6b5b"
+    },
+    {
+      "bytes": 23127,
+      "path": "paper-writing/scripts/collect_library_medical.py",
+      "sha256": "cf0dc1d6375ae49107d52a687a575bdcece4483296c9608496156997905ebada"
+    },
+    {
+      "bytes": 16558,
+      "path": "paper-writing/scripts/collect_library_ml.py",
+      "sha256": "b222e9a8c036f7bc3bf1582cad996e607d6ca48c51538e69bba08bcf5b07034e"
+    },
+    {
       "bytes": 54,
       "path": "paper-writing/scripts/corpus-requirements.txt",
       "sha256": "2d77c6bdcd3a59bc228cb3ef7405d20561d8eb4aae97f6e03a55c71d31a49c6a"
@@ -185,9 +205,9 @@
       "sha256": "90a2dd26e373e37270c40a29d350371f2dfc303d072c0121c7ad4bef62af1bb2"
     },
     {
-      "bytes": 18693,
+      "bytes": 20592,
       "path": "publish_toolkit.py",
-      "sha256": "da3cd4ba71dc4fbd423afa7067d2d8c570bce0dc76ffb63ac0e60397176cb357"
+      "sha256": "e5d64ea67371e3e6799a49485f5380236964eca1f99aeb2ed4dc06f2bfd765bc"
     },
     {
       "bytes": 10440,
@@ -230,9 +250,34 @@
       "sha256": "33ed33461f43a798576092d1fb18e07b4757e4c2144f4c6969849d6945f7e86a"
     },
     {
+      "bytes": 2969,
+      "path": "research/library-10000/collection-report.md",
+      "sha256": "c2ae4aa4d9ed34bc3659d5845108a74244ceb20b632f83e9dfc0fb409427264b"
+    },
+    {
+      "bytes": 5425,
+      "path": "research/library-10000/independent-audit.md",
+      "sha256": "8a065c0ba454c339040fa769684b3b6a125ebb8dd0e0812ed73cfa846355ddae"
+    },
+    {
+      "bytes": 9462123,
+      "path": "research/library-10000/papers.jsonl",
+      "sha256": "0c2780e1dec887cd403dab8a7148c1e08486eb6c6ad37dfc3ef65fceca52dae7"
+    },
+    {
+      "bytes": 2510,
+      "path": "research/library-10000/summary.json",
+      "sha256": "19fc1bfba0dc7566f90c2f1518d202b1be9252d511666120d460e99986022e1e"
+    },
+    {
       "bytes": 8218,
       "path": "validation/test_aggressive_independent.py",
       "sha256": "a78c828999ce30667d1a8f072541dfa30c1fc6586fb87f70dc18c7d843b43471"
+    },
+    {
+      "bytes": 15996,
+      "path": "validation/test_library.py",
+      "sha256": "80623a4ec9a2a156493ed1904299ff443a7ef08962e1513bf56a6c50f0402d6c"
     },
     {
       "bytes": 3575,

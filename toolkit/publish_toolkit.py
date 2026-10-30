@@ -24,7 +24,7 @@ TEXT_SUFFIXES = {".py", ".md", ".json", ".jsonl", ".yaml", ".yml", ".txt"}
 SKIP_PARTS = {"__pycache__", ".git", ".pytest_cache", "archive", "node_modules"}
 TESTS = {
     "test_paper_harness.py", "test_packet_invariants.py", "test_scoring.py",
-    "test_scoring_v2.py", "test_scoring_v2_independent.py",
+    "test_scoring_v2.py", "test_scoring_v2_independent.py", "test_library.py",
 }
 METADATA_KEYS = {
     "id", "title", "authors", "venue", "year", "url", "doi", "pmid", "pmcid",
@@ -194,6 +194,21 @@ def export_metadata(source, build):
         ],
     }
     write_text(output / "summary.json", json_text(public_summary))
+    expanded = source / "research" / "library-10000"
+    if (expanded / "papers.jsonl").is_file():
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("library_validator", source / "paper-writing/scripts/collect_library.py")
+        validator = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(validator)
+        library = validator.load_rows(expanded / "papers.jsonl")
+        validator.validate_rows(library, quotas=validator.QUOTAS)
+        target = build / "research" / "library-10000"
+        write_text(target / "papers.jsonl", (expanded / "papers.jsonl").read_text(encoding="utf-8"))
+        write_text(target / "summary.json", json_text(load_json(expanded / "summary.json")))
+        for name in ("collection-report.md", "independent-audit.md"):
+            path = expanded / name
+            if path.is_file():
+                write_text(target / name, portable_markdown(path.read_text(encoding="utf-8"), source, Path("research/library-10000") / name))
 
 
 def readme(build):
@@ -204,6 +219,17 @@ def readme(build):
         "and the scorecard for selection and interpretation. The aggressive policy changes "
         "scoring expectations, not the scientific evidence available.\n\n"
         if policy.is_file() else ""
+    )
+    library_note = (
+        "The expanded resource library in `research/library-10000/papers.jsonl` contains "
+        "**10,000 unique citation records**, all published by 2022, including every original "
+        "300-paper citation ID. It covers 9,000 main-conference papers and 1,000 journal papers. "
+        "It contains metadata only, with no new semantic-reading claims. Reproduce it with "
+        "`python paper-writing/scripts/collect_library.py --output-root research/library-10000 "
+        "--seed research/historical-2022/papers.jsonl --collect`; omit `--collect` to merge cached "
+        "shards, or use `--validate` to check the shipped registry. Optional collector dependencies "
+        "are listed in the corpus requirements file.\n\n"
+        if (build / "research/library-10000/papers.jsonl").is_file() else ""
     )
     return (
         "# Paper writing toolkit\n\n"
@@ -226,6 +252,7 @@ def readme(build):
         "supply inspected evidence and rationale, and report coverage and blockers alongside scores.\n\n"
         + policy_note +
         "## Historical citations and access\n\n"
+        + library_note +
         "`research/historical-2022/papers.jsonl` contains 300 stable citation IDs with authors, "
         "venues, source links and bounded inspection provenance. This is a metadata-only export: "
         "zero local abstracts and zero article bodies. The original collection recorded 300 abstracts "

@@ -1,10 +1,10 @@
 {
   "release": "aggressive-v1",
-  "local_tests": 122,
-  "public_portable_tests": 98,
+  "local_tests": 135,
+  "public_portable_tests": 110,
   "browser_cli_scenarios": 176,
   "browser_cli_mismatches": 0,
-  "corpus_records": 300,
+  "corpus_records": 10000,
   "cutoff_year": 2022,
   "scoring_scope": "Fictional arithmetic and software invariants; not real-manuscript calibration.",
   "toolkit_self_assessment": {
@@ -15,10 +15,13 @@
   },
   "download": {
     "file": "downloads/paper-review-lab.zip",
-    "sha256": "5d9491590087a6fed60bcc42d8525680100efbe0a90ef98851164f58880fe5a9",
-    "bytes": 264536
+    "sha256": "00ee5c72605927089b020da3e3ceb73ee6f3a9bb40ecfae38b3e6ddb6e5919bb",
+    "bytes": 1475126
   },
   "evidence": "tests/check_site_parity.py and toolkit/validation; existing repository checks remain passing.",
   "repository": "https://github.com/Optimizer077/paper-review-lab",
-  "site": "https://optimizer077.github.io/paper-review-lab/"
+  "site": "https://optimizer077.github.io/paper-review-lab/",
+  "public_skipped_local_cache_tests": 1,
+  "library_tests": 13,
+  "corpus_sha256": "0c2780e1dec887cd403dab8a7148c1e08486eb6c6ad37dfc3ef65fceca52dae7"
 }

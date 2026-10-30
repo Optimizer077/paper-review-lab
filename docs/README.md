@@ -2,7 +2,7 @@
 
 A buildless GitHub Pages site with an evidence-backed manuscript workbench,
 24 anchored criteria, four contribution profiles, aggressive scoring, and a
-searchable collection of 300 historical citation records from 2018–2022.
+searchable collection of 10,000 historical citation records from 2018–2022.
 
 [Live site](https://optimizer077.github.io/paper-review-lab/) ·
 [Repository quick start](../README.md) ·
@@ -21,7 +21,7 @@ closing it. The website does not read manuscripts or call an AI service.
 
 ## Verification
 
-From the repository root, Python 3.10+ runs the 98 portable toolkit tests:
+From the repository root, Python 3.10+ runs the portable toolkit tests (110 pass; one private-cache check is skipped):
 
 ```sh
 python -m unittest discover -s toolkit/validation -p 'test_*.py' -q
@@ -43,7 +43,7 @@ scripts are needed. Keep `data/manuscript-rubric.json` and
 `data/corpus.json` includes citation metadata only. The original local collection
 contained 300 abstracts and 238 downloaded bodies; neither is hosted here.
 Collection is distinct from reading or scientific validation. Eighteen selected
-papers were inspected at abstract or selected-section level; no claim of 300
+papers were inspected at abstract or selected-section level; no claim of 10,000
 complete scientific reviews is made. These are explicitly selected venues, not
 an objective venue ranking or a representative paper sample.
 

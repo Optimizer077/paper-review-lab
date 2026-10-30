@@ -1,0 +1,121 @@
+{
+  "abstract_records": 0,
+  "complete_paper_scientific_reviews_claimed": 0,
+  "corpus_sha256": "0c2780e1dec887cd403dab8a7148c1e08486eb6c6ad37dfc3ef65fceca52dae7",
+  "counts": {
+    "BMJ": 200,
+    "CVPR": 2500,
+    "ICCV": 1000,
+    "ICLR": 1500,
+    "ICML": 2000,
+    "JAMA": 200,
+    "NEJM": 200,
+    "Nature": 100,
+    "Nature Medicine": 100,
+    "NeurIPS": 2000,
+    "The Lancet": 200
+  },
+  "cutoff_year": 2022,
+  "distribution": "citation_metadata_only",
+  "fulltext_downloaded": 0,
+  "limits": [
+    "Explicit venue/year-stratified convenience selection, not an objective ranking or representative sample.",
+    "Citation metadata collection is distinct from abstract reading, article download or scientific review.",
+    "The original 300-paper collection and its inspection notes remain separately documented."
+  ],
+  "new_selected_section_inspections": 0,
+  "original_300_selected_section_inspections": 18,
+  "quotas": {
+    "BMJ": 200,
+    "CVPR": 2500,
+    "ICCV": 1000,
+    "ICLR": 1500,
+    "ICML": 2000,
+    "JAMA": 200,
+    "NEJM": 200,
+    "Nature": 100,
+    "Nature Medicine": 100,
+    "NeurIPS": 2000,
+    "The Lancet": 200
+  },
+  "retained_initial_collection_records": 300,
+  "source_of_truth": "papers.jsonl",
+  "total_records": 10000,
+  "validated_at": "2026-10-30T00:27:32.410457+00:00",
+  "venue_year_counts": {
+    "BMJ": {
+      "2018": 40,
+      "2019": 40,
+      "2020": 40,
+      "2021": 40,
+      "2022": 40
+    },
+    "CVPR": {
+      "2020": 834,
+      "2021": 833,
+      "2022": 833
+    },
+    "ICCV": {
+      "2019": 500,
+      "2021": 500
+    },
+    "ICLR": {
+      "2020": 500,
+      "2021": 500,
+      "2022": 500
+    },
+    "ICML": {
+      "2020": 667,
+      "2021": 667,
+      "2022": 666
+    },
+    "JAMA": {
+      "2018": 40,
+      "2019": 40,
+      "2020": 40,
+      "2021": 40,
+      "2022": 40
+    },
+    "NEJM": {
+      "2018": 40,
+      "2019": 40,
+      "2020": 40,
+      "2021": 40,
+      "2022": 40
+    },
+    "Nature": {
+      "2018": 20,
+      "2019": 20,
+      "2020": 20,
+      "2021": 20,
+      "2022": 20
+    },
+    "Nature Medicine": {
+      "2018": 20,
+      "2019": 20,
+      "2020": 20,
+      "2021": 20,
+      "2022": 20
+    },
+    "NeurIPS": {
+      "2020": 667,
+      "2021": 667,
+      "2022": 666
+    },
+    "The Lancet": {
+      "2018": 40,
+      "2019": 40,
+      "2020": 40,
+      "2021": 40,
+      "2022": 40
+    }
+  },
+  "version": 1,
+  "years": {
+    "2018": 200,
+    "2019": 700,
+    "2020": 2868,
+    "2021": 3367,
+    "2022": 2865
+  }
+}

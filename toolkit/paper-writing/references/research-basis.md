@@ -1,6 +1,8 @@
 # Research basis: historical top-venue papers
 
-The active paper corpus is **300 papers from 2022 or earlier**, replacing the earlier 96-paper collection for writing-example selection. The [registry](../../research/historical-2022/papers.jsonl) records sources and inspection flags; the [summary](../../research/historical-2022/summary.json) records validated counts, downloads and corpus hash.
+The resource library is **10,000 citation records from 2022 or earlier**. Its [metadata registry](../../research/library-10000/papers.jsonl) and [summary](../../research/library-10000/summary.json) document fixed venue quotas, balanced publication years, unique identities and source provenance. All 300 original citation IDs are retained. The expanded metadata collection adds no new selected-section or scientific reviews.
+
+The original **300-paper inspection collection** remains the basis of the existing writing-example notes. The [registry](../../research/historical-2022/papers.jsonl) records sources and inspection flags; the [summary](../../research/historical-2022/summary.json) records validated counts, downloads and corpus hash.
 
 ## Eligibility
 

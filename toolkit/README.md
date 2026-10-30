@@ -20,6 +20,8 @@ The scorer also includes an explicit aggressive scoring policy in `paper-writing
 
 ## Historical citations and access
 
+The expanded resource library in `research/library-10000/papers.jsonl` contains **10,000 unique citation records**, all published by 2022, including every original 300-paper citation ID. It covers 9,000 main-conference papers and 1,000 journal papers. It contains metadata only, with no new semantic-reading claims. Reproduce it with `python paper-writing/scripts/collect_library.py --output-root research/library-10000 --seed research/historical-2022/papers.jsonl --collect`; omit `--collect` to merge cached shards, or use `--validate` to check the shipped registry. Optional collector dependencies are listed in the corpus requirements file.
+
 `research/historical-2022/papers.jsonl` contains 300 stable citation IDs with authors, venues, source links and bounded inspection provenance. This is a metadata-only export: zero local abstracts and zero article bodies. The original collection recorded 300 abstracts and 238 available bodies; those original counts are explicitly distinguished in `summary.json`. The accompanying specialist notes are original editorial observations, not complete article reviews. No journal full articles are mirrored. Use original publisher or repository links to inspect sources under their applicable access terms.
 
 Collectors remain available as source code. They require the optional packages in `paper-writing/scripts/corpus-requirements.txt` and perform network access only when explicitly run. Collection metadata, downloads and selected-section inspection are separate evidence levels.
