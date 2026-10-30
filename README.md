@@ -13,6 +13,14 @@ An evidence-backed manuscript review workbench and portable writing toolkit. Mak
 
 The website and core command-line tools have no AI backend. A person or capable agent must inspect the manuscript and its evidence. Generated packets are review tasks; they are not completed reviews. Browser entries remain in the tab, with no automatic saving—export your JSON before closing it.
 
+## Writing support
+
+[Explore the resource hub](https://optimizer077.github.io/paper-review-lab/resources.html) · [Task-by-task guide](toolkit/paper-writing/references/writing-support-guide.md) · [Annotated catalog](toolkit/paper-writing/references/writing-resources.md)
+
+The support catalog contains **42 selected primary-source resources across eight categories**: planning, sections, clarity, reporting, displays, citations/integrity, review/submission and tools. It includes MIT and Duke guides, Manchester Phrasebank, writing manuals, Stanford and Nature courses, study-design reporting standards, and documented reference/document tools. Each entry explains how to use it and records its source, access, inspection level and limits. Book metadata, indexed excerpts, course descriptions and tool documentation are distinguished from full reading, course completion or independent testing.
+
+Support resources are maintained separately from the 10,000-paper historical index and can include current guidance published after 2022.
+
 ## Quick start
 
 Use Python 3.10+ from the repository root. The workbench requires HTTP so its local JSON files can load:
@@ -40,7 +48,7 @@ See the [harness guide](toolkit/paper-writing/references/harness-guide.md) and [
 
 ## Verification
 
-The portable toolkit passes 110 tests; one additional local-cache-only check is skipped in the public export. The browser parity check covers 176 fictional scenarios across the four bundled integer-weight profiles and requires Node.js 20+ alongside Python 3.10+.
+The portable toolkit passes 122 tests when run from this repository; one additional local-cache-only check is skipped. The browser parity check covers 176 fictional scenarios across the four bundled integer-weight profiles and requires Node.js 20+ alongside Python 3.10+.
 
 ```sh
 python -m unittest discover -s toolkit/validation -p 'test_*.py' -q

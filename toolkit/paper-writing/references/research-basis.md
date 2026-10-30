@@ -28,6 +28,10 @@ Blind teach-back, ten reviewer roles, the context schema and scoring weights are
 
 Historical formatting does not determine present compliance. Recheck actual venue/year/track/stage through [venue profiles](venue-profiles.md), without adding newer papers to this historical example collection.
 
+## Writing support beyond the historical papers
+
+The [support catalog](writing-resources.md) separately tracks 42 selected primary-source writing guides, manuals, courses, reporting standards and tools, checked 2026-10-30. Its source-level inspection flags distinguish page content, book metadata and limited indexed excerpts. This adds workflow support rather than additional semantic paper reviews. Current support instructions may postdate 2022 without changing the 10,000-paper index cutoff.
+
 ## Public distribution
 
 This export includes citation metadata and original editorial inspection notes only. Abstracts and article bodies are omitted. Original collection and inspection flags describe provenance; they do not imply that those source texts are bundled here. The summary distinguishes original collection counts from zero public local abstracts and article bodies. Follow source links to inspect originals.

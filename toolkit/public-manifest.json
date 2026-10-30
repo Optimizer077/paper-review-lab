@@ -1,13 +1,13 @@
 {
-  "bytes_excluding_manifest": 10773453,
+  "bytes_excluding_manifest": 10892335,
   "created_by": "paper-writing-public-export-v1",
   "distribution": "metadata_only_public_toolkit",
-  "file_count_excluding_manifest": 61,
+  "file_count_excluding_manifest": 68,
   "files": [
     {
-      "bytes": 3851,
+      "bytes": 4285,
       "path": "README.md",
-      "sha256": "f34a7c806889d01bd090cac54f643dd0f6ac376c99d0a3952c37431f02e38a00"
+      "sha256": "d511773ab85c06e9388bbf74aec18f686909b29d8321973b394a8d14b7d7d921"
     },
     {
       "bytes": 3251,
@@ -25,9 +25,9 @@
       "sha256": "5ee8ec5dfe70b87b9136860e42f5e30f1c36139aaecd1508280eb9bfbef89a7b"
     },
     {
-      "bytes": 8153,
+      "bytes": 8585,
       "path": "paper-writing/SKILL.md",
-      "sha256": "42c60ca75831e77f97a19fc89581142315abf772a1eaf7cc49dbf7a5c7af6273"
+      "sha256": "9f1b1e8a86224012842b1eb61300e41ed910c6cd6e776e2d81c64cf52d0fae54"
     },
     {
       "bytes": 315,
@@ -120,9 +120,9 @@
       "sha256": "145c18f18a6305bb1711a15a5d9f8856995ea41d9a5c366372a5954411d6b360"
     },
     {
-      "bytes": 3615,
+      "bytes": 4112,
       "path": "paper-writing/references/research-basis.md",
-      "sha256": "bcc10949b44fe9dcec76b241b805e4b2a45bb3756b433c5c2bf10dad4ca0f0c3"
+      "sha256": "2ddd878a7e55203f578d6393e16f9ee2d22783fb8de693fca9d2e1893c9a9dce"
     },
     {
       "bytes": 6841,
@@ -135,14 +135,29 @@
       "sha256": "3bb0f407d3cbf04b431fd60cc5a353e231dfb8afed715f3b92f4d0c666b05477"
     },
     {
-      "bytes": 367372,
+      "bytes": 367668,
       "path": "paper-writing/references/sources.json",
-      "sha256": "e0487b08cbb1711880bf1069c13a1669f79422d5d87724edd362a34a53ca4076"
+      "sha256": "0f1a980f7eb3f2716a5fbec52cbd1bb856feaeecedd7ef8c510a279bd8356663"
     },
     {
       "bytes": 6447,
       "path": "paper-writing/references/venue-profiles.md",
       "sha256": "057a43fc10e9278d9367dc48f7ed5bff54af14de8cfada492172d559298b55e0"
+    },
+    {
+      "bytes": 72215,
+      "path": "paper-writing/references/writing-resources.json",
+      "sha256": "2474fd964028a995bd03b08ef10824edfe1e7e4e03ff8e50ef21e486e7719b1e"
+    },
+    {
+      "bytes": 16377,
+      "path": "paper-writing/references/writing-resources.md",
+      "sha256": "4003b06c8d8fd47b40b61b537383a832cc5176d5ef08ab43b224065f2c6ad6e6"
+    },
+    {
+      "bytes": 9104,
+      "path": "paper-writing/references/writing-support-guide.md",
+      "sha256": "6fb8f36f12b979b47aad174dbfcbfd0b160b96adbef84d271c2341065a8315ce"
     },
     {
       "bytes": 349,
@@ -205,9 +220,14 @@
       "sha256": "90a2dd26e373e37270c40a29d350371f2dfc303d072c0121c7ad4bef62af1bb2"
     },
     {
-      "bytes": 20592,
+      "bytes": 6115,
+      "path": "paper-writing/scripts/validate_writing_resources.py",
+      "sha256": "aab5433d2c36f6f4610086268f02226f172f2f02adcb3cbe24488e111ff205f1"
+    },
+    {
+      "bytes": 21442,
       "path": "publish_toolkit.py",
-      "sha256": "e5d64ea67371e3e6799a49485f5380236964eca1f99aeb2ed4dc06f2bfd765bc"
+      "sha256": "f3a155fa74ed442f92931424a024a3add190589a7f51550067ad1779164d8e87"
     },
     {
       "bytes": 10440,
@@ -270,6 +290,16 @@
       "sha256": "19fc1bfba0dc7566f90c2f1518d202b1be9252d511666120d460e99986022e1e"
     },
     {
+      "bytes": 4926,
+      "path": "research/writing-support/independent-audit.md",
+      "sha256": "d07a3314bf744e2575e2b4c86860e90049d2526551b95b1039ce3185df705dee"
+    },
+    {
+      "bytes": 734,
+      "path": "research/writing-support/selection-audit.json",
+      "sha256": "2ee5f324b0917985c2817858be0afcb2e2d628e3c509d7bf9fd21c36aa4f19c3"
+    },
+    {
       "bytes": 8218,
       "path": "validation/test_aggressive_independent.py",
       "sha256": "a78c828999ce30667d1a8f072541dfa30c1fc6586fb87f70dc18c7d843b43471"
@@ -308,6 +338,11 @@
       "bytes": 8391,
       "path": "validation/test_scoring_v2_independent.py",
       "sha256": "a8171e074655bbef35e9893cc051676a2ee56c1e79fa03ffb05206eca5d71301"
+    },
+    {
+      "bytes": 6902,
+      "path": "validation/test_writing_resources.py",
+      "sha256": "78f3ce4f527dfa11263f456a3ae4477f75508ef67e55ada75a59eb75e9b2dc80"
     }
   ],
   "safety_scan": "passed",

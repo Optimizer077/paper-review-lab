@@ -7456,5 +7456,12 @@
     "level": "citation metadata only",
     "new_semantic_reviews": 0,
     "initial_collection_retained": 300
+  },
+  "catalog_scope": "Legacy writing-example and guidance registry; expanded support resources are tracked separately.",
+  "writing_support_catalog": {
+    "path": "writing-resources.json",
+    "resources": 42,
+    "verified_at": "2026-10-30",
+    "separate_from_historical_paper_index": true
   }
 }

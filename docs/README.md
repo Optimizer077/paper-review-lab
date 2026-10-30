@@ -21,7 +21,7 @@ closing it. The website does not read manuscripts or call an AI service.
 
 ## Verification
 
-From the repository root, Python 3.10+ runs the portable toolkit tests (110 pass; one private-cache check is skipped):
+From the repository root, Python 3.10+ runs the portable toolkit tests (122 pass; one private-cache check is skipped):
 
 ```sh
 python -m unittest discover -s toolkit/validation -p 'test_*.py' -q
@@ -51,3 +51,13 @@ an objective venue ranking or a representative paper sample.
 arithmetic. It is not a real-paper assessment. Aggressive thresholds are original
 editorial conventions with no prospective real-manuscript calibration; scores
 are not acceptance predictions or scientific certification.
+
+## Writing support hub
+
+`resources.html` uses the shared design and `resources.js`/`resources.css` to search 42 selected primary-source guides, manuals, courses, reporting standards and tool documentation. The live catalog is `data/writing-resources.json`; keep it equal to `toolkit/paper-writing/references/writing-resources.json`.
+
+Before updating an entry, inspect the original provider and record its verification URL, date, access and inspection level. Books are metadata-only entries; limited indexed retrieval is disclosed. This catalog is separate from the historical paper cutoff.
+
+```sh
+python toolkit/paper-writing/scripts/validate_writing_resources.py toolkit/paper-writing/references/writing-resources.json
+```

@@ -1,0 +1,29 @@
+{
+  "validation": {
+    "resources": 42,
+    "categories": {
+      "citations-integrity": 5,
+      "clarity-language": 8,
+      "figures-tables": 3,
+      "methods-reporting": 7,
+      "planning-argument": 4,
+      "review-submission": 6,
+      "structure-sections": 4,
+      "tools-workflow": 5
+    },
+    "inspection_levels": {
+      "author-metadata": 1,
+      "indexed-primary-excerpt": 2,
+      "page-content": 35,
+      "publisher-metadata": 4
+    }
+  },
+  "duplicate_sources_collapsed": [
+    {
+      "id": "plos-response-reviewers-2017",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005730"
+    }
+  ],
+  "new_semantic_paper_reviews": 0,
+  "historical_paper_records_unchanged": 10000
+}

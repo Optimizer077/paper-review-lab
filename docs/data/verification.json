@@ -1,7 +1,7 @@
 {
   "release": "aggressive-v1",
-  "local_tests": 135,
-  "public_portable_tests": 110,
+  "local_tests": 147,
+  "public_portable_tests": 122,
   "browser_cli_scenarios": 176,
   "browser_cli_mismatches": 0,
   "corpus_records": 10000,
@@ -15,13 +15,18 @@
   },
   "download": {
     "file": "downloads/paper-review-lab.zip",
-    "sha256": "00ee5c72605927089b020da3e3ceb73ee6f3a9bb40ecfae38b3e6ddb6e5919bb",
-    "bytes": 1475126
+    "sha256": "38108f4bca4ff45369acc54fe15907b88c9ea2ee0bb16985b95adab848753f88",
+    "bytes": 1511221
   },
   "evidence": "tests/check_site_parity.py and toolkit/validation; existing repository checks remain passing.",
   "repository": "https://github.com/Optimizer077/paper-review-lab",
   "site": "https://optimizer077.github.io/paper-review-lab/",
   "public_skipped_local_cache_tests": 1,
   "library_tests": 13,
-  "corpus_sha256": "0c2780e1dec887cd403dab8a7148c1e08486eb6c6ad37dfc3ef65fceca52dae7"
+  "corpus_sha256": "0c2780e1dec887cd403dab8a7148c1e08486eb6c6ad37dfc3ef65fceca52dae7",
+  "writing_support_resources": 42,
+  "writing_support_categories": 8,
+  "writing_support_tests": 12,
+  "writing_support_catalog_sha256": "36ff0a47892888a0da2876210d211fbc4c8e2a568df9be9afc93b7eca4557cad",
+  "isolated_zip_also_skips_optional_website_parity": true
 }

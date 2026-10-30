@@ -18,6 +18,10 @@ The manuscript rubric defines 24 anchored criteria across five domains, with emp
 
 The scorer also includes an explicit aggressive scoring policy in `paper-writing/assets/scoring-policies.json`; consult `score_evaluation.py --help` and the scorecard for selection and interpretation. The aggressive policy changes scoring expectations, not the scientific evidence available.
 
+## Writing support
+
+The [task-by-task support guide](paper-writing/references/writing-support-guide.md) and [annotated catalog](paper-writing/references/writing-resources.md) cover selected university guides, manuals, courses, reporting standards and tools. The structured JSON catalog records checked sources, access and inspection limits. Support guidance is maintained separately from the historical paper index and may be newer.
+
 ## Historical citations and access
 
 The expanded resource library in `research/library-10000/papers.jsonl` contains **10,000 unique citation records**, all published by 2022, including every original 300-paper citation ID. It covers 9,000 main-conference papers and 1,000 journal papers. It contains metadata only, with no new semantic-reading claims. Reproduce it with `python paper-writing/scripts/collect_library.py --output-root research/library-10000 --seed research/historical-2022/papers.jsonl --collect`; omit `--collect` to merge cached shards, or use `--validate` to check the shipped registry. Optional collector dependencies are listed in the corpus requirements file.

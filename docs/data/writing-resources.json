@@ -1,0 +1,1479 @@
+{
+  "version": 1,
+  "title": "Paper Review Lab writing support",
+  "updated_at": "2026-10-30",
+  "selection_policy": "Selected original-provider resources with direct relevance to manuscript tasks, actionable guidance and disclosed access/inspection limits. This is not an exhaustive or objective ranking.",
+  "scope": "Writing guides, manuals, reporting standards and tools are maintained separately from the 10,000-paper historical index; support resources may postdate 2022. Metadata checks, page inspection, completed courses, book reading and tool evaluation are distinct.",
+  "categories": {
+    "planning-argument": "Planning and argument",
+    "structure-sections": "Paper structure and sections",
+    "clarity-language": "Clarity and academic language",
+    "methods-reporting": "Methods and reporting",
+    "figures-tables": "Figures and tables",
+    "citations-integrity": "Citations, authorship and integrity",
+    "review-submission": "Review and submission",
+    "tools-workflow": "Tools and writing workflow"
+  },
+  "starter_ids": [
+    "mit-eecs-abstract",
+    "mensh-kording-structure",
+    "manchester-phrasebank",
+    "equator-reporting-library",
+    "plos-better-figures-2014",
+    "tools-zotero-basics"
+  ],
+  "resources": [
+    {
+      "id": "mensh-kording-structure",
+      "title": "Ten simple rules for structuring papers",
+      "provider": "Brett Mensh and Konrad Kording / PLOS Computational Biology",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619",
+      "category": "planning-argument",
+      "resource_type": "guide",
+      "tasks": [
+        "identify the central contribution",
+        "outline a manuscript",
+        "check logical flow"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "An author-written editorial explaining how a central contribution, reader expectations, section roles, and an explicit chain of evidence can organize a scientific paper.",
+      "how_to_use": "Write a one-sentence contribution and a sequence of claims supported by evidence, then compare your abstract, introduction, results, and discussion with their intended roles.",
+      "limits": "The context-content-conclusion pattern is a default heuristic, not an empirical guarantee of impact. Adapt it for theorem-driven papers, structured abstracts, reporting guidelines, and venue requirements.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619",
+      "source_note": "Inspected the editorial's rules for a central contribution, context-content-conclusion, section responsibilities, outlining, and feedback; publication date is September 28, 2017.",
+      "primary_source": true,
+      "tags": [
+        "argument",
+        "outline",
+        "structure",
+        "central-contribution"
+      ]
+    },
+    {
+      "id": "pautasso-literature-review",
+      "title": "Ten Simple Rules for Writing a Literature Review",
+      "provider": "Marco Pautasso / PLOS Computational Biology",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003149",
+      "category": "planning-argument",
+      "resource_type": "guide",
+      "tasks": [
+        "scope a literature review",
+        "take source-linked notes",
+        "synthesize research critically"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "An author-written guide to choosing a review's topic and audience, searching and taking notes, selecting a review type, maintaining focus, and critically synthesizing relevant work.",
+      "how_to_use": "Define the review question and intended audience, keep notes attached to their sources, and organize the draft around a synthesis rather than a sequence of paper summaries.",
+      "limits": "General review-writing advice is not a systematic-review protocol or reporting checklist. Systematic reviews need explicit eligibility criteria, reproducible searches, appraisal methods, and the applicable reporting guideline.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003149",
+      "source_note": "Inspected the 2013 editorial's rules on topic, searching, notes, review types, focus, critical synthesis, objectivity, and currency.",
+      "primary_source": true,
+      "tags": [
+        "literature-review",
+        "synthesis",
+        "notes",
+        "scope"
+      ]
+    },
+    {
+      "id": "craft-research-5",
+      "title": "The Craft of Research, Fifth Edition",
+      "provider": "Wayne C. Booth, Gregory G. Colomb, Joseph M. Williams, Joseph Bizup, and William T. FitzGerald / University of Chicago Press",
+      "url": "https://press.uchicago.edu/ucp/books/book/chicago/C/bo215874008.html",
+      "category": "planning-argument",
+      "resource_type": "book",
+      "tasks": [
+        "form a research question",
+        "evaluate sources",
+        "build claims and evidence"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "A general research manual whose publisher lists guidance on questions, sources, claims, reasons, evidence, warrants, drafting, citation, visual evidence, and research ethics.",
+      "how_to_use": "Use the contents to select the chapter matching your current problem, especially the transition from a topic to a question or from evidence to an argument.",
+      "limits": "Verified the fifth-edition publisher description and contents, not the full book. It is a broad research framework; discipline-specific methods and reporting standards remain necessary.",
+      "access": "book-or-library",
+      "inspection_level": "publisher-metadata",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://press.uchicago.edu/ucp/books/book/chicago/C/bo215874008.html",
+      "source_note": "Publisher identifies the fifth edition, copyright 2024, named authors, and detailed contents including arguments, citation, visual evidence, generative AI, and ethics.",
+      "primary_source": true,
+      "tags": [
+        "manual",
+        "research-question",
+        "argument",
+        "sources"
+      ]
+    },
+    {
+      "id": "schimel-writing-science",
+      "title": "Writing Science: How to Write Papers That Get Cited and Proposals That Get Funded",
+      "provider": "Joshua Schimel / Oxford University Press",
+      "url": "https://schimelwritingscience.wordpress.com/2011/10/29/writing-science/",
+      "category": "planning-argument",
+      "resource_type": "book",
+      "tasks": [
+        "connect results to a contribution",
+        "plan a scientific narrative",
+        "clarify the question a paper answers"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "A scientific writing book whose author describes a narrative approach: explain the question, interpret results, and make the resulting knowledge and contribution clear to readers.",
+      "how_to_use": "Use the author's framing to test whether your outline answers a clear question and connects evidence to the knowledge the paper contributes; consult the book for the detailed method.",
+      "limits": "Inspected the author's book announcement, not the full book. OUP product pages were inaccessible during verification. The title describes the book's aim; citations and funding are not guaranteed outcomes.",
+      "access": "book-or-library",
+      "inspection_level": "author-metadata",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://schimelwritingscience.wordpress.com/2011/10/29/writing-science/",
+      "source_note": "Inspected Schimel's October 29, 2011 announcement explaining the book's story-focused purpose and research-question emphasis; this is author metadata only, and the book was not read.",
+      "primary_source": true,
+      "tags": [
+        "manual",
+        "narrative",
+        "contribution",
+        "argument"
+      ]
+    },
+    {
+      "id": "mit-eecs-abstract",
+      "title": "Abstract",
+      "provider": "MIT Electrical Engineering and Computer Science Communication Lab",
+      "url": "https://mitcommlab.mit.edu/eecs/commkit/abstract/",
+      "category": "structure-sections",
+      "resource_type": "guide",
+      "tasks": [
+        "draft an abstract",
+        "identify the knowledge gap",
+        "state results and implications"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "A compact abstract guide connecting background, the research gap, the contribution, results, and implications, with audience analysis and an annotated example.",
+      "how_to_use": "Label each sentence of a draft by its role, then check whether a reader can identify the problem, contribution, evidence, and significance without opening the paper.",
+      "limits": "The suggested formula and length are general advice. Structured clinical abstracts, conference formats, and journal instructions may require a different arrangement or word limit.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://mitcommlab.mit.edu/eecs/commkit/abstract/",
+      "source_note": "Inspected the six-part structure, audience examples, jargon guidance, concision advice, and link to an annotated abstract.",
+      "primary_source": true,
+      "tags": [
+        "abstract",
+        "audience",
+        "knowledge-gap",
+        "revision"
+      ]
+    },
+    {
+      "id": "mit-be-introduction",
+      "title": "Journal Article: Introduction",
+      "provider": "MIT Biological Engineering Communication Lab",
+      "url": "https://mitcommlab.mit.edu/be/commkit/journal-article-introduction/",
+      "category": "structure-sections",
+      "resource_type": "guide",
+      "tasks": [
+        "outline an introduction",
+        "justify the research question",
+        "connect context to the contribution"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "A four-part introduction framework that moves from shared background to a specific gap and a preview of the findings, with guidance on citations and outside readers.",
+      "how_to_use": "Start from the contribution paragraph and work backward, adding only the context needed to understand the question, approach, and significance.",
+      "limits": "Examples emphasize biological engineering. The page itself advises adapting breadth and length to the target journal; the framework is not a universal submission rule.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://mitcommlab.mit.edu/be/commkit/journal-article-introduction/",
+      "source_note": "Inspected the four success criteria, guidance for outside readers, balanced attribution, and backward planning from the final introduction paragraph.",
+      "primary_source": true,
+      "tags": [
+        "introduction",
+        "motivation",
+        "knowledge-gap",
+        "outline"
+      ]
+    },
+    {
+      "id": "nature-research-paper-course",
+      "title": "Writing a Research Paper: 2nd Edition",
+      "provider": "Nature Masterclasses",
+      "url": "https://www.nature.com/masterclasses/writing-research-paper/52046480",
+      "category": "structure-sections",
+      "resource_type": "course",
+      "tasks": [
+        "Learn scientific writing",
+        "Plan targeted writing practice"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "A structured research-paper writing course with a public outline, course sample and modules on scientific writing style.",
+      "how_to_use": "Use the outline to identify a writing skill gap; check institutional access before committing to the full course.",
+      "limits": "Access and syllabus can change. Page inspection does not mean the course was completed or that its advice fits every contribution type.",
+      "access": "institutional-or-paid",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://www.nature.com/masterclasses/writing-research-paper/52046480",
+      "source_note": "The official page identifies the second edition, five modules, a course sample and subscription access.",
+      "primary_source": true,
+      "tags": [
+        "course",
+        "scientific writing",
+        "practice"
+      ]
+    },
+    {
+      "id": "zobel-computer-science-3",
+      "title": "Writing for Computer Science, Third Edition",
+      "provider": "Justin Zobel / Springer London",
+      "url": "https://link.springer.com/book/10.1007/978-1-4471-6639-9",
+      "category": "structure-sections",
+      "resource_type": "book",
+      "tasks": [
+        "write a computing research paper",
+        "present mathematics and algorithms",
+        "organize evidence and evaluation"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory"
+      ],
+      "summary": "A computing research and writing manual whose publisher lists paper organization, style, mathematics, algorithms, figures, experimentation, reviewing, and ethics among its topics.",
+      "how_to_use": "Consult the chapter matching the manuscript element being revised, then check whether notation, algorithms, claims, and experimental evidence are understandable together.",
+      "limits": "Verified the third-edition publisher overview and contents, not the full book. The page distinguishes copyright 2014 from the 2015 ebook and softcover publication dates.",
+      "access": "book-or-library",
+      "inspection_level": "publisher-metadata",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://link.springer.com/book/10.1007/978-1-4471-6639-9",
+      "source_note": "Springer identifies edition 3 and subscription-preview access; inspected chapter listings on writing a paper, mathematics, algorithms, visual evidence, experimentation, statistics, and ethics.",
+      "primary_source": true,
+      "tags": [
+        "manual",
+        "computer-science",
+        "algorithms",
+        "mathematics"
+      ]
+    },
+    {
+      "id": "manchester-phrasebank",
+      "title": "Academic Phrasebank",
+      "provider": "The University of Manchester; John Morley",
+      "url": "https://www.phrasebank.manchester.ac.uk/",
+      "category": "clarity-language",
+      "resource_type": "guide",
+      "tasks": [
+        "express uncertainty",
+        "connect arguments",
+        "find section-appropriate phrasing"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Generic academic language organized by research-paper sections and communication functions, including cautious claims, comparisons, definitions, transitions, and explanations.",
+      "how_to_use": "Choose the communication task first, then adapt a suitable phrase to your evidence, intended meaning, and field's conventions.",
+      "limits": "Phrases are scaffolds, not evidence or an argument. Replace illustrative content and avoid formulaic wording that changes the strength of a claim. Expanded editions are separate from the open website.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://www.phrasebank.manchester.ac.uk/using-cautious-language/",
+      "source_note": "Inspected the site's purpose and adaptation guidance, plus the cautious-language page's examples for explanations, limitations, implications, and avoiding overgeneralization.",
+      "primary_source": true,
+      "tags": [
+        "academic-english",
+        "hedging",
+        "transitions",
+        "phrasing"
+      ]
+    },
+    {
+      "id": "duke-scientific-writing",
+      "title": "Duke Graduate School Scientific Writing Resource",
+      "provider": "Duke University Graduate School",
+      "url": "https://sites.duke.edu/scientificwriting/",
+      "category": "clarity-language",
+      "resource_type": "course",
+      "tasks": [
+        "revise sentences",
+        "improve paragraph flow",
+        "practice reader-centered editing"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Self-directed scientific writing lessons built around reader expectations, with principles, worked examples, and worksheets. The emphasis is communicating meaning rather than correcting grammar alone.",
+      "how_to_use": "Work through a lesson, complete its worksheet, and apply the same revision technique to a paragraph from your manuscript.",
+      "limits": "Designed for graduate science students. Inspection covered the introduction and the complete first lesson, not every worksheet or later lesson.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://sites.duke.edu/scientificwriting/lesson-1-subjects-and-actions/",
+      "source_note": "Inspected the course introduction and first lesson on actions in verbs, actors in subjects, subject continuity, and keeping subjects near verbs.",
+      "primary_source": true,
+      "tags": [
+        "sentences",
+        "revision",
+        "reader-expectations",
+        "exercises"
+      ]
+    },
+    {
+      "id": "tools-languagetool",
+      "title": "LanguageTool for Students and Scholars",
+      "provider": "LanguageTool",
+      "url": "https://languagetool.org/students",
+      "category": "clarity-language",
+      "resource_type": "tool",
+      "tasks": [
+        "proofread language",
+        "review grammar and punctuation",
+        "consider style suggestions"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Language assistance offering grammar, spelling, punctuation, and style suggestions, with supported word-processor integrations described on the official academic page.",
+      "how_to_use": "Use a final language pass on a checked draft. Review suggestions individually, preserving technical terms, numerical values, qualifications, and the intended meaning of claims.",
+      "limits": "Vendor feature descriptions are not independent evidence of accuracy. Language suggestions can alter meaning and do not verify facts, methods, references, originality, or publication readiness. Features and access vary by plan.",
+      "access": "mixed",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://languagetool.org/students",
+      "source_note": "Official academic page inspected for correction and style roles and Word, Google Docs, and LibreOffice links; promotional accuracy promises excluded.",
+      "primary_source": true,
+      "tags": [
+        "LanguageTool",
+        "proofreading",
+        "grammar",
+        "style",
+        "language-assistance"
+      ]
+    },
+    {
+      "id": "gopen-swan-scientific-writing",
+      "title": "The Science of Scientific Writing",
+      "provider": "George D. Gopen and Judith A. Swan / American Scientist; author-hosted copy",
+      "url": "https://georgegopen.com/wp-content/uploads/2026/04/the-science-of-scientific-writing-1.pdf",
+      "category": "clarity-language",
+      "resource_type": "guide",
+      "tasks": [
+        "revise information order",
+        "improve sentence emphasis",
+        "analyze reader expectations"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "A scientific writing article using worked revisions to explain how sentence and paragraph structure influence readers' interpretation, emphasis, and understanding of technical material.",
+      "how_to_use": "Identify each sentence's topic, action, and intended emphasis; test whether their positions guide the reader through the argument without changing the science.",
+      "limits": "This is the 1990 article, not the author's later expanded book. Reader-expectation principles support editorial judgment and should not be treated as mechanical rules or statistical validation.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://georgegopen.com/wp-content/uploads/2026/04/the-science-of-scientific-writing-1.pdf",
+      "source_note": "Opened the PDF linked by Gopen's own books page; inspected attribution, original-publication statement, reader-expectation explanation, and worked table and prose examples.",
+      "primary_source": true,
+      "tags": [
+        "reader-expectations",
+        "information-order",
+        "sentences",
+        "revision"
+      ]
+    },
+    {
+      "id": "tools-vale-prose-linting",
+      "title": "Vale: Introduction",
+      "provider": "Vale",
+      "url": "https://docs.vale.sh/",
+      "category": "clarity-language",
+      "resource_type": "documentation",
+      "tasks": [
+        "check terminology consistency",
+        "apply a team style guide",
+        "automate prose style checks"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Introduces an open-source command-line framework for checking prose against configurable style and terminology rules, including checks scoped to document regions.",
+      "how_to_use": "Define a small set of manuscript terminology and style rules, run them on the draft, and review the findings. Use shared rules to help coauthors apply the same conventions.",
+      "limits": "Vale emphasizes consistency with configured rules rather than teaching writing or establishing grammatical correctness. Its usefulness depends on the rules; passing checks does not validate evidence, research quality, or citation support.",
+      "access": "open-source",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://docs.vale.sh/",
+      "source_note": "Official introduction inspected for custom YAML rules, scope controls, consistency-focused limits, and explicit MIT-licensed open-source status.",
+      "primary_source": true,
+      "tags": [
+        "Vale",
+        "open-source",
+        "local-workflow",
+        "prose-linting",
+        "terminology",
+        "style-guide"
+      ]
+    },
+    {
+      "id": "tools-writefull-overleaf",
+      "title": "Writefull for Overleaf - User Guide",
+      "provider": "Writefull",
+      "url": "https://help.writefull.com/writefull-for-overleaf--user-guide",
+      "category": "clarity-language",
+      "resource_type": "documentation",
+      "tasks": [
+        "review academic English",
+        "inspect language suggestions in LaTeX",
+        "revise sentence clarity"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Official guide to language feedback in Overleaf, accepting or rejecting edits, and optional rewriting and LaTeX assistance features.",
+      "how_to_use": "Review language suggestions on an evidence-checked draft, accept or reject them individually, and compare revised sentences with the original claims. Follow the venue's current AI-use and disclosure requirements.",
+      "limits": "English research-language assistance does not verify scientific correctness or citation support. Generated text and LaTeX need author review. Features depend on access, and different model choices have different processing arrangements; no privacy certification is inferred.",
+      "access": "mixed",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://help.writefull.com/writefull-for-overleaf--user-guide",
+      "source_note": "Official current user guide inspected for language-feedback scope, edit controls, model choices, and access distinctions; vendor privacy and integrity generalizations not adopted.",
+      "primary_source": true,
+      "tags": [
+        "Writefull",
+        "Overleaf",
+        "academic-English",
+        "LaTeX",
+        "language-assistance",
+        "AI-use"
+      ]
+    },
+    {
+      "id": "stanford-writing-sciences",
+      "title": "Writing in the Sciences",
+      "provider": "Stanford University / Stanford Online; Kristin Sainani; delivered through Coursera",
+      "url": "https://www.coursera.org/learn/sciwrite",
+      "category": "clarity-language",
+      "resource_type": "course",
+      "tasks": [
+        "practice scientific editing",
+        "learn manuscript structure",
+        "understand publication ethics and peer review"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "An eight-module course combining scientific editing, writing process, manuscript organization, peer review, publication ethics, and communication with general audiences.",
+      "how_to_use": "Use the syllabus to target a weak area, complete the relevant exercises, and revise an actual passage alongside the examples.",
+      "limits": "Inspected the public course description and syllabus, not enrolled lectures or assessments. Access options and certificates depend on Coursera's current enrollment offering; do not assume all assessed content is free.",
+      "access": "mixed",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://www.coursera.org/learn/sciwrite",
+      "source_note": "Observed Stanford Online branding, Kristin Sainani as instructor, eight modules, editing exercises, manuscript and review topics, and enrollment-dependent access terms.",
+      "primary_source": true,
+      "tags": [
+        "course",
+        "editing",
+        "manuscript",
+        "peer-review"
+      ]
+    },
+    {
+      "id": "greene-plain-english-2",
+      "title": "Writing Science in Plain English, Second Edition",
+      "provider": "Anne E. Greene / University of Chicago Press",
+      "url": "https://press.uchicago.edu/ucp/books/book/chicago/W/bo240970102.html",
+      "category": "clarity-language",
+      "resource_type": "book",
+      "tasks": [
+        "revise scientific prose",
+        "strengthen verbs",
+        "practice paragraph organization"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "A focused scientific style manual whose publisher describes principles for subjects, verbs, terminology, paragraphs, and sentence structure, supported by revision exercises and answer keys.",
+      "how_to_use": "Choose one revision principle, complete its exercise, and apply it to a short manuscript passage before moving to the next principle.",
+      "limits": "Verified the second-edition publisher description and contents, not the full book or instructor guide. Clarity exercises do not establish the correctness of scientific claims.",
+      "access": "book-or-library",
+      "inspection_level": "publisher-metadata",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://press.uchicago.edu/ucp/books/book/chicago/W/bo240970102.html",
+      "source_note": "Publisher identifies the second edition, copyright 2025, exercise keys, grammar appendix, and chapters on audience, verbs, voice, word choice, and structure.",
+      "primary_source": true,
+      "tags": [
+        "manual",
+        "plain-english",
+        "editing",
+        "exercises"
+      ]
+    },
+    {
+      "id": "arrive-2-reporting",
+      "title": "ARRIVE guidelines 2.0 for animal research",
+      "provider": "ARRIVE Guidelines / NC3Rs",
+      "url": "https://arriveguidelines.org/arrive-guidelines",
+      "category": "methods-reporting",
+      "resource_type": "reporting-guideline",
+      "tasks": [
+        "Report animal experiments",
+        "Audit experimental reporting",
+        "Describe bias reduction and sample size"
+      ],
+      "profiles": [
+        "clinical"
+      ],
+      "summary": "Animal research reporting guidance organized into the Essential 10 and a complementary Recommended Set, with explanations and examples from published studies.",
+      "how_to_use": "Review the Essential 10 first, then the Recommended Set. Use item explanations to check experimental design, bias reduction, sample size, and statistical reporting.",
+      "limits": "Applies to research involving animals, including preclinical work. The clinical profile indicates biomedical relevance and does not mean this replaces human clinical reporting guidance.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://arriveguidelines.org/arrive-guidelines",
+      "source_note": "The official page separates Essential 10 from the Recommended Set and links explanations, examples, translations, and the original explanation paper.",
+      "primary_source": true,
+      "tags": [
+        "ARRIVE",
+        "version-2.0",
+        "animal-research",
+        "preclinical",
+        "sample-size",
+        "bias"
+      ]
+    },
+    {
+      "id": "consort-2025",
+      "title": "CONSORT 2025: reporting randomized trials",
+      "provider": "SPIRIT–CONSORT Group",
+      "url": "https://www.consort-spirit.org/",
+      "category": "methods-reporting",
+      "resource_type": "reporting-guideline",
+      "tasks": [
+        "Report a randomized trial",
+        "Audit trial methods and results",
+        "Prepare a participant flow diagram"
+      ],
+      "profiles": [
+        "clinical"
+      ],
+      "summary": "The 2025 CONSORT statement supplies a 30-item checklist and participant flow diagram for transparent reporting of randomized trial results.",
+      "how_to_use": "Use the expanded checklist while drafting methods and results. Record manuscript locations and consult the explanation document for each applicable item.",
+      "limits": "This is the verified 2025 reporting version, which postdates the paper index cutoff. Check relevant extensions and the destination journal's instructions; checklist completion does not validate trial quality.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://www.consort-spirit.org/",
+      "source_note": "The official page identifies CONSORT 2025, its 30-item checklist, expanded checklist, flow diagram, and explanation and elaboration links.",
+      "primary_source": true,
+      "tags": [
+        "CONSORT",
+        "version-2025",
+        "randomized-trials",
+        "methods",
+        "results",
+        "flow-diagram"
+      ]
+    },
+    {
+      "id": "equator-reporting-library",
+      "title": "EQUATOR reporting guideline library",
+      "provider": "EQUATOR Network",
+      "url": "https://equator-network.org/reporting-guidelines/",
+      "category": "methods-reporting",
+      "resource_type": "reporting-guideline",
+      "tasks": [
+        "Choose a reporting guideline",
+        "Check reporting completeness",
+        "Find study-specific extensions"
+      ],
+      "profiles": [
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Searchable library of reporting guidelines organized by study type, clinical area, and report section, with guidance on using checklists and explanation documents.",
+      "how_to_use": "Filter for the study design, read the full guideline, then map applicable checklist items to manuscript locations and find any relevant extensions.",
+      "limits": "The library emphasizes health research. Reporting checklists describe information to disclose; they do not establish sound study design or replace critical appraisal.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://equator-network.org/reporting-guidelines/",
+      "source_note": "The inspected database includes study-type and report-section columns and explicitly distinguishes reporting guidance from design and quality appraisal tools.",
+      "primary_source": true,
+      "tags": [
+        "reporting",
+        "checklist-selection",
+        "health-research",
+        "guideline-library"
+      ]
+    },
+    {
+      "id": "nature-reporting-reproducibility",
+      "title": "Nature reporting standards and data, materials, and code availability",
+      "provider": "Nature Portfolio / Nature Communications",
+      "url": "https://www.nature.com/ncomms/editorial-policies/reporting-standards",
+      "category": "methods-reporting",
+      "resource_type": "documentation",
+      "tasks": [
+        "Audit reproducibility reporting",
+        "Draft data and code availability statements",
+        "Check statistical reporting"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "clinical"
+      ],
+      "summary": "Publisher guidance and reporting-summary templates for describing experimental design, statistics, data access, materials, protocols, and code central to published claims.",
+      "how_to_use": "Use the reporting summary to locate missing methodological details, then draft explicit data and code access statements, including restrictions and persistent identifiers.",
+      "limits": "This is Nature Portfolio policy presented on the Nature Communications site, not a universal submission rule. The linked flat summary is a reference copy; obtain the required form from the destination journal.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://www.nature.com/ncomms/editorial-policies/reporting-standards",
+      "source_note": "Inspected reporting requirements, data/code availability sections, and the linked flat reporting summary, which covers sample sizes, uncertainty, tests, and experimental design.",
+      "primary_source": true,
+      "tags": [
+        "Nature",
+        "reproducibility",
+        "data-availability",
+        "code-availability",
+        "statistics",
+        "reporting-summary"
+      ]
+    },
+    {
+      "id": "prisma-2020",
+      "title": "PRISMA 2020 statement and checklists",
+      "provider": "PRISMA Executive",
+      "url": "https://www.prisma-statement.org/prisma-2020-statement",
+      "category": "methods-reporting",
+      "resource_type": "reporting-guideline",
+      "tasks": [
+        "Report a systematic review",
+        "Audit review reporting",
+        "Prepare a review flow diagram"
+      ],
+      "profiles": [
+        "systematic-review",
+        "clinical",
+        "empirical-ml"
+      ],
+      "summary": "PRISMA 2020 provides a 27-item checklist, expanded recommendations, an abstract checklist, and flow-diagram templates for original and updated systematic reviews.",
+      "how_to_use": "Use the expanded checklist to audit review methods and findings, complete the matching flow diagram, and check the abstract separately.",
+      "limits": "PRISMA addresses reporting completeness rather than the validity of review methods. Select relevant extensions for specialized review types and distinguish the 2020 guideline name from its 2021 publications.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://www.prisma-statement.org/prisma-2020-statement",
+      "source_note": "The official statement page lists all checklist formats and flow diagrams and advises reading the statement with its explanation and elaboration paper.",
+      "primary_source": true,
+      "tags": [
+        "PRISMA",
+        "version-2020",
+        "systematic-review",
+        "meta-analysis",
+        "abstract",
+        "flow-diagram"
+      ]
+    },
+    {
+      "id": "strobe-checklists",
+      "title": "STROBE observational study checklists",
+      "provider": "STROBE Initiative",
+      "url": "https://www.strobe-statement.org/checklists/",
+      "category": "methods-reporting",
+      "resource_type": "reporting-guideline",
+      "tasks": [
+        "Report an observational study",
+        "Describe confounding and missing data",
+        "Audit participant reporting"
+      ],
+      "profiles": [
+        "clinical"
+      ],
+      "summary": "Study-specific and combined checklists support reporting of cohort, case-control, and cross-sectional studies, including participants, measurements, bias, analyses, and results.",
+      "how_to_use": "Choose the matching design checklist. Check eligibility, variable definitions, confounders, missing-data handling, participant counts, and estimate precision against the draft.",
+      "limits": "Designed for observational epidemiology. Use applicable extensions where needed and do not treat item counts as a score of causal validity or study quality.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://www.strobe-statement.org/download/strobe-checklist-cohort-case-control-and-cross-sectional-studies-combined",
+      "source_note": "The official checklist page lists three study designs; the combined PDF requests confounding control, missing-data methods, participant flow, and confidence intervals.",
+      "primary_source": true,
+      "tags": [
+        "STROBE",
+        "observational-studies",
+        "cohort",
+        "case-control",
+        "cross-sectional",
+        "missing-data"
+      ]
+    },
+    {
+      "id": "tripod-ai-2024",
+      "title": "TRIPOD+AI (2024): clinical prediction model reporting",
+      "provider": "TRIPOD Group",
+      "url": "https://www.tripod-statement.org/",
+      "category": "methods-reporting",
+      "resource_type": "reporting-guideline",
+      "tasks": [
+        "Report a clinical prediction model",
+        "Describe model development and evaluation",
+        "Document model availability and limitations"
+      ],
+      "profiles": [
+        "clinical",
+        "empirical-ml"
+      ],
+      "summary": "A 27-item reporting checklist for clinical prediction model development, evaluation, and updating using regression or machine learning methods.",
+      "how_to_use": "Map development and evaluation items to the draft. Check data partitions, tuning, model specification, performance uncertainty, subgroup reporting, and access restrictions.",
+      "limits": "The verified 2024 guideline replaces TRIPOD 2015 and postdates the paper index cutoff. Its scope is clinical prediction; biomedical LLM studies may also need the separate TRIPOD-LLM extension.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://www.tripod-statement.org/wp-content/uploads/2019/12/TRIPODAI_checklist.pdf",
+      "source_note": "The official hub states that TRIPOD+AI replaces TRIPOD 2015; the checklist cites BMJ 2024 and includes tuning, model access, uncertainty, and limitations.",
+      "primary_source": true,
+      "tags": [
+        "TRIPOD+AI",
+        "version-2024",
+        "clinical-prediction",
+        "machine-learning",
+        "model-evaluation",
+        "transparency"
+      ]
+    },
+    {
+      "id": "mit-be-figure-design",
+      "title": "Figure Design",
+      "provider": "MIT Biological Engineering Communication Lab",
+      "url": "https://mitcommlab.mit.edu/be/commkit/figure-design/",
+      "category": "figures-tables",
+      "resource_type": "guide",
+      "tasks": [
+        "choose a figure type",
+        "design a multi-panel figure",
+        "write figure captions"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "A practical guide to matching visual form, evidence, and complexity to a figure's message and audience, including comparisons among tables, graphs, illustrations, and photographs.",
+      "how_to_use": "Write the intended takeaway first, select a representation that supports it, and check that panels, labels, and captions let readers evaluate the evidence.",
+      "limits": "Communication advice does not replace statistical judgment, image-integrity requirements, accessibility checks, or journal-specific artwork specifications. Some examples are from molecular biology.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://mitcommlab.mit.edu/be/commkit/figure-design/",
+      "source_note": "Inspected audience analysis, multi-panel guidance, table-versus-graph examples, plot selection, distribution warnings, and paper-caption advice.",
+      "primary_source": true,
+      "tags": [
+        "figures",
+        "tables",
+        "captions",
+        "visual-evidence"
+      ]
+    },
+    {
+      "id": "nature-figure-specifications",
+      "title": "Nature research figure guide: preparing figures",
+      "provider": "Nature Portfolio",
+      "url": "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/",
+      "category": "figures-tables",
+      "resource_type": "guide",
+      "tasks": [
+        "Prepare publication figures",
+        "Improve figure accessibility",
+        "Check image and export specifications"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Illustrated figure preparation guidance covering axes, units, accessible colors, labels, images, resolution, fonts, scale bars, and export choices.",
+      "how_to_use": "Inspect each figure at its intended size. Check labels, units, contrast, font legibility, scale bars, and export settings against the relevant examples.",
+      "limits": "Nature's production specifications are venue-specific. Treat numerical font and resolution requirements as that provider's instructions and confirm the actual destination's figure requirements.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/",
+      "source_note": "The page contains paired visual examples and explicit guidance on axis units, accessible palettes, overlapping labels, image resolution, and RGB artwork.",
+      "primary_source": true,
+      "tags": [
+        "Nature",
+        "figures",
+        "accessibility",
+        "color",
+        "image-resolution",
+        "production"
+      ]
+    },
+    {
+      "id": "plos-better-figures-2014",
+      "title": "Ten Simple Rules for Better Figures (2014)",
+      "provider": "Rougier, Droettboom, and Bourne / PLOS Computational Biology",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833",
+      "category": "figures-tables",
+      "resource_type": "guide",
+      "tasks": [
+        "Plan a figure's message",
+        "Revise captions and visual hierarchy",
+        "Adapt figures to an audience"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "An illustrated primary guidance article on selecting a figure's audience and message, adapting to the medium, writing captions, and adjusting plotting defaults.",
+      "how_to_use": "Write the intended message for each figure, then revise its layout, caption, and visual choices using the article's worked examples.",
+      "limits": "Practical design advice from 2014, not a journal's current technical specification or evidence that a chart accurately represents its underlying data.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833",
+      "source_note": "The full article identifies its 2014 publication date and supplies illustrated rules on audience, message, display medium, captions, defaults, and color.",
+      "primary_source": true,
+      "tags": [
+        "PLOS",
+        "version-2014",
+        "figures",
+        "captions",
+        "visual-communication",
+        "audience"
+      ]
+    },
+    {
+      "id": "tools-overleaf-biblatex",
+      "title": "Bibliography management with biblatex",
+      "provider": "Overleaf",
+      "url": "https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex",
+      "category": "citations-integrity",
+      "resource_type": "guide",
+      "tasks": [
+        "configure a LaTeX bibliography",
+        "insert citation keys",
+        "select citation and bibliography styles"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Worked BibLaTeX guide covering bibliography files, citation commands, Biber, bibliography styles, and sorting.",
+      "how_to_use": "Start with the minimal example using a checked bibliography file. Choose the backend and style required by the journal or conference, then inspect the compiled references.",
+      "limits": "Formatting depends on the bibliography metadata and selected style. This guide does not verify source existence, the accuracy of imported fields, or whether a reference supports a manuscript claim.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex",
+      "source_note": "Official guide inspected for addbibresource, cite, printbibliography, backend, style, and sorting examples.",
+      "primary_source": true,
+      "tags": [
+        "LaTeX",
+        "BibLaTeX",
+        "Biber",
+        "bibliography",
+        "citation-formatting"
+      ]
+    },
+    {
+      "id": "tools-quarto-citations",
+      "title": "Citations",
+      "provider": "Quarto",
+      "url": "https://quarto.org/docs/authoring/citations.html",
+      "category": "citations-integrity",
+      "resource_type": "documentation",
+      "tasks": [
+        "cite in Quarto Markdown",
+        "configure bibliography files",
+        "choose citation styles",
+        "place a reference list"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Documentation for bibliography metadata, citation keys and locators, CSL styles, reference-list placement, and alternative LaTeX citation engines.",
+      "how_to_use": "Add a checked bibliography to the YAML header, cite records by key, choose the required style, and render. Check citations and the reference list against the sources and venue instructions.",
+      "limits": "Citations are generated from supplied records; formatting automation does not verify their accuracy or evidential support. Citation processing differs for some output formats and selected citation methods.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://quarto.org/docs/authoring/citations.html",
+      "source_note": "Official citation documentation inspected for bibliography YAML, citation syntax, locators, CSL, reference placement, and citation-method caveats.",
+      "primary_source": true,
+      "tags": [
+        "Quarto",
+        "Markdown",
+        "bibliography",
+        "CSL",
+        "citation-formatting"
+      ]
+    },
+    {
+      "id": "cope-ai-authorship",
+      "title": "COPE position: Authorship and AI tools",
+      "provider": "Committee on Publication Ethics",
+      "url": "https://doi.org/10.24318/cCVRZBms",
+      "category": "citations-integrity",
+      "resource_type": "guide",
+      "tasks": [
+        "Disclose AI assistance",
+        "Check authorship accountability",
+        "Document manuscript tool use"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "COPE's position explains why AI tools cannot be authors and places disclosure and responsibility for AI-assisted manuscript content with human authors.",
+      "how_to_use": "Record which AI tools were used and how. Draft a transparent disclosure, verify generated content, and compare the destination venue's current policy.",
+      "limits": "A publishing-ethics position, not permission from a particular venue. The indexed primary page lists a 2023 review date and 2024 version publication; both postdate the paper index cutoff.",
+      "access": "open-web",
+      "inspection_level": "indexed-primary-excerpt",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://doi.org/10.24318/cCVRZBms?trk=public_post_comment-text",
+      "source_note": "Inspected substantive indexed text from COPE's DOI landing page on authorship, AI-use disclosure, and author responsibility. Direct page retrieval returned HTTP 403.",
+      "primary_source": true,
+      "tags": [
+        "COPE",
+        "AI-disclosure",
+        "authorship",
+        "publication-ethics",
+        "accountability"
+      ]
+    },
+    {
+      "id": "credit-contributor-roles",
+      "title": "CRediT contributor roles and implementation guidance",
+      "provider": "NISO / CRediT",
+      "url": "https://credit.niso.org/implementing-credit/",
+      "category": "citations-integrity",
+      "resource_type": "guide",
+      "tasks": [
+        "Write a contribution statement",
+        "Agree contributor roles",
+        "Distinguish contributions from authorship eligibility"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "A 14-role taxonomy and implementation guide for describing research contributions, including analysis, software, visualization, and writing responsibilities.",
+      "how_to_use": "Discuss roles with collaborators, assign all relevant contributions, and confirm agreement before writing the contribution statement in the venue's requested format.",
+      "limits": "CRediT describes contributions and does not determine authorship eligibility or author order. Individuals may hold multiple roles, and the same role may apply to several contributors.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://credit.niso.org/implementing-credit/",
+      "source_note": "The official hub lists 14 roles and 2022 ANSI/NISO standardization; implementation guidance requests agreed roles and explicitly separates CRediT from determining authorship.",
+      "primary_source": true,
+      "tags": [
+        "CRediT",
+        "NISO",
+        "contributorship",
+        "authorship",
+        "contribution-statement",
+        "collaboration"
+      ]
+    },
+    {
+      "id": "tools-zotero-word-citations",
+      "title": "Using the Zotero Word Plugin",
+      "provider": "Zotero",
+      "url": "https://www.zotero.org/support/word_processor_plugin_usage",
+      "category": "citations-integrity",
+      "resource_type": "documentation",
+      "tasks": [
+        "insert Word citations",
+        "update a bibliography",
+        "change citation style",
+        "add citation locators"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Instructions for adding and editing Word citations, generating a bibliography, refreshing metadata, and choosing document citation preferences.",
+      "how_to_use": "Insert citations through the plugin, add page or other locators where needed, correct errors in the Zotero library, and refresh the document before reviewing the bibliography.",
+      "limits": "This page covers Microsoft Word; other integrations have separate instructions. Manual bibliography edits can be overwritten on refresh. Unlinking citations removes automatic updating and should be reserved for a final document copy.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://www.zotero.org/support/word_processor_plugin_usage",
+      "source_note": "Official plugin instructions inspected for citation insertion, bibliography refresh, metadata correction, locators, and unlinking warning.",
+      "primary_source": true,
+      "tags": [
+        "Zotero",
+        "Microsoft Word",
+        "bibliography",
+        "citation-formatting",
+        "locators"
+      ]
+    },
+    {
+      "id": "acm-artifact-badging-1-1",
+      "title": "ACM Artifact Review and Badging, version 1.1 (2020)",
+      "provider": "Association for Computing Machinery",
+      "url": "https://www.acm.org/publications/policies/artifact-review-and-badging-current",
+      "category": "review-submission",
+      "resource_type": "documentation",
+      "tasks": [
+        "Package research artifacts",
+        "Document reproduction instructions",
+        "Interpret artifact badges"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory"
+      ],
+      "summary": "ACM's versioned framework distinguishes artifact evaluation, availability, and validation of results, with documentation and exercisability criteria for reviewed artifacts.",
+      "how_to_use": "Prepare an artifact inventory, execution instructions, and evidence supporting paper claims. Match the target venue's artifact call to the relevant badge criteria.",
+      "limits": "Badge families are independent and venue procedures differ. The 2020 terminology revision matters when interpreting older badges; a badge is not a universal paper-quality or acceptance score.",
+      "access": "open-web",
+      "inspection_level": "indexed-primary-excerpt",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://prod-www.acm.bloomreach.cloud/publications/policies/artifact-review-and-badging-current",
+      "source_note": "Inspected indexed text from ACM's publishing site identifying version 1.1, August 24, 2020, three independent badge families, and functional-artifact criteria. Direct retrieval returned HTTP 403.",
+      "primary_source": true,
+      "tags": [
+        "ACM",
+        "version-1.1",
+        "version-2020",
+        "artifacts",
+        "reproducibility",
+        "badging"
+      ]
+    },
+    {
+      "id": "gastel-day-scientific-paper-9",
+      "title": "How to Write and Publish a Scientific Paper, Ninth Edition",
+      "provider": "Barbara Gastel and Robert A. Day / Cambridge University Press",
+      "url": "https://www.cambridgebookshop.co.uk/products/how-to-write-and-publish-a-scientific-paper-1",
+      "category": "review-submission",
+      "resource_type": "book",
+      "tasks": [
+        "plan manuscript preparation",
+        "prepare text and graphics",
+        "understand publication responsibilities"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "A scientific publication manual whose publisher describes support for text, graphics, publication, writing style, permissions, authorship, visual abstracts, and writing in English as an additional language.",
+      "how_to_use": "Use it as a stage-specific reference while drafting, preparing illustrations, agreeing authorship, and assembling a submission; check the target journal's current instructions alongside it.",
+      "limits": "Verified the ninth-edition Cambridge paperback listing and description, not the full book. The inspected listing is the 2024 Cambridge edition; other regional editions have different publication details.",
+      "access": "book-or-library",
+      "inspection_level": "publisher-metadata",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://www.cambridgebookshop.co.uk/products/how-to-write-and-publish-a-scientific-paper-1",
+      "source_note": "The Cambridge University Press Bookshop lists edition 9, authors, ISBN 9781009477536, April 25, 2024 publication, and specific coverage of rights, coauthors, visual abstracts, and language.",
+      "primary_source": true,
+      "tags": [
+        "manual",
+        "submission",
+        "authorship",
+        "publication"
+      ]
+    },
+    {
+      "id": "icmje-recommendations-2026",
+      "title": "ICMJE Recommendations (January 2026)",
+      "provider": "International Committee of Medical Journal Editors",
+      "url": "https://www.icmje.org/recommendations/",
+      "category": "review-submission",
+      "resource_type": "guide",
+      "tasks": [
+        "Prepare a medical manuscript",
+        "Check authorship and disclosures",
+        "Report statistics and references"
+      ],
+      "profiles": [
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Recommendations on medical manuscript preparation, authorship, disclosures, publication ethics, peer review, and AI use, with an accessible section-by-section web version.",
+      "how_to_use": "Audit the relevant sections before submission. Check statistical detail, uncertainty, prespecified versus exploratory analyses, reference accuracy, contribution responsibilities, and disclosures.",
+      "limits": "The verified revision is January 2026, after the paper index cutoff. It primarily addresses medical journals; confirm the destination journal's adoption and additional requirements.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://www.icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html",
+      "source_note": "The hub labels the update January 2026; manuscript guidance discusses uncertainty, software versions, exploratory analyses, and references to original research.",
+      "primary_source": true,
+      "tags": [
+        "ICMJE",
+        "version-2026-01",
+        "medical-writing",
+        "authorship",
+        "disclosures",
+        "statistics"
+      ]
+    },
+    {
+      "id": "neurips-paper-checklist",
+      "title": "NeurIPS Paper Checklist Guidelines",
+      "provider": "NeurIPS",
+      "url": "https://neurips.cc/public/guides/PaperChecklist",
+      "category": "review-submission",
+      "resource_type": "reporting-guideline",
+      "tasks": [
+        "Audit machine-learning claims",
+        "Document assumptions and limitations",
+        "Prepare a reproducibility checklist"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory"
+      ],
+      "summary": "Official checklist guidance connects claims, limitations, theoretical assumptions, reproducibility, transparency, and research ethics to supporting manuscript evidence.",
+      "how_to_use": "Answer applicable questions with short justifications and manuscript references. Check that each affirmative answer has evidence and that assumptions and limits accompany the claims.",
+      "limits": "The inspected page sits within the 2026 conference site and may change. Confirm the target year's instructions; justified negative or inapplicable answers should not become generic quality penalties.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://neurips.cc/public/guides/PaperChecklist",
+      "source_note": "The page explains answer justifications and manuscript references, discusses claims, limitations, proofs and reproducibility, and says negative or inapplicable answers are not generally grounds for rejection.",
+      "primary_source": true,
+      "tags": [
+        "NeurIPS",
+        "inspected-2026",
+        "claims",
+        "limitations",
+        "proofs",
+        "reproducibility",
+        "checklist"
+      ]
+    },
+    {
+      "id": "noble-response-reviewers",
+      "title": "Ten simple rules for writing a response to reviewers",
+      "provider": "William Stafford Noble / PLOS Computational Biology",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005730",
+      "category": "review-submission",
+      "resource_type": "guide",
+      "tasks": [
+        "draft a response letter",
+        "address every review comment",
+        "document manuscript changes"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "An author-written guide to organizing revision responses, answering every point, keeping replies self-contained, separating comments from replies, and making manuscript changes clear.",
+      "how_to_use": "Build a point-by-point response table, answer each issue directly, and record the corresponding change and its location in the revised manuscript.",
+      "limits": "Advice reflects journal revision workflows. Conference rebuttals may impose strict word limits, confidentiality rules, or restrictions on new results; follow the venue's instructions.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005730",
+      "source_note": "Inspected the 2017 editorial's overview, self-contained responses, every-point coverage, direct answers, typography, and explicit comparison of original and revised manuscripts.",
+      "primary_source": true,
+      "tags": [
+        "peer-review",
+        "response-letter",
+        "revision",
+        "submission"
+      ]
+    },
+    {
+      "id": "tools-texcount",
+      "title": "TeXcount: Introduction",
+      "provider": "TeXcount",
+      "url": "https://app.uio.no/ifi/texcount/intro.html",
+      "category": "review-submission",
+      "resource_type": "documentation",
+      "tasks": [
+        "check manuscript word limits",
+        "inspect LaTeX counting rules",
+        "count sections separately"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Introduces a LaTeX word-counting tool with separate counts for text, headings, captions, and equations, plus detailed output showing what was counted.",
+      "how_to_use": "Run a count on the manuscript and inspect the detailed interpretation. Configure included files and macro rules as needed, then reconcile counted components with the venue's stated word-limit policy.",
+      "limits": "LaTeX parsing rules can misinterpret custom macros or omit material. The venue decides what contributes to its word limit; a TeXcount total is not a universal submission count.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://app.uio.no/ifi/texcount/intro.html",
+      "source_note": "Developer-hosted introduction and linked running instructions inspected; local execution, counting components, and detailed interpretation are documented.",
+      "primary_source": true,
+      "tags": [
+        "TeXcount",
+        "LaTeX",
+        "word-count",
+        "submission",
+        "local-workflow"
+      ]
+    },
+    {
+      "id": "tools-jabref-getting-started",
+      "title": "Getting started with JabRef",
+      "provider": "JabRef",
+      "url": "https://docs.jabref.org/getting-started",
+      "category": "tools-workflow",
+      "resource_type": "documentation",
+      "tasks": [
+        "maintain a BibTeX library",
+        "create citation keys",
+        "review bibliographic metadata",
+        "link source files"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Walkthrough for creating a text-based bibliography library, adding entries, generating citation keys, updating metadata, and linking full text.",
+      "how_to_use": "Maintain the manuscript's bibliography file in JabRef, use stable citation keys, and inspect proposed metadata updates before merging them into an existing record.",
+      "limits": "Metadata lookup and file attachment assist record management, not source appraisal or claim verification. Citation keys identify entries; they do not prove the completeness, correctness, or relevance of those entries.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://docs.jabref.org/getting-started",
+      "source_note": "Official walkthrough inspected for BibTeX storage, entry editing, citation-key generation, web metadata updates, and attached files.",
+      "primary_source": true,
+      "tags": [
+        "JabRef",
+        "BibTeX",
+        "local-library",
+        "citation-keys",
+        "metadata"
+      ]
+    },
+    {
+      "id": "tools-quarto-journal-articles",
+      "title": "Journal Articles",
+      "provider": "Quarto",
+      "url": "https://quarto.org/docs/journals/",
+      "category": "tools-workflow",
+      "resource_type": "documentation",
+      "tasks": [
+        "prepare journal article formats",
+        "reuse manuscript source",
+        "configure author affiliations",
+        "adapt journal templates"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Overview of Quarto's journal article formats, single-source publishing, author metadata, LaTeX templates, and citation styling.",
+      "how_to_use": "Check whether a maintained format fits the target journal, configure manuscript metadata, and render the source for the needed output. Compare the result with the journal's current instructions.",
+      "limits": "An available format is a document-production starting point, not confirmation of current journal compliance or acceptance. Authors must inspect rendered output and independently verify the journal's current requirements.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://quarto.org/docs/journals/",
+      "source_note": "Official overview inspected for custom formats, single-source output, author and affiliation schema, CSL, and journal format links.",
+      "primary_source": true,
+      "tags": [
+        "Quarto",
+        "journal-formats",
+        "Markdown",
+        "LaTeX",
+        "author-metadata",
+        "local-workflow"
+      ]
+    },
+    {
+      "id": "tools-overleaf-latex-basics",
+      "title": "Learn LaTeX in 30 minutes",
+      "provider": "Overleaf",
+      "url": "https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes",
+      "category": "tools-workflow",
+      "resource_type": "guide",
+      "tasks": [
+        "start a LaTeX manuscript",
+        "typeset mathematics",
+        "add figures and tables",
+        "cross-reference manuscript elements"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Beginner tutorial for writing a LaTeX document, with worked examples for sections, mathematics, images, tables, and document formatting.",
+      "how_to_use": "Work through the minimal article example, then adapt the relevant syntax to the venue's current manuscript template. Compile a small example before adding complex material.",
+      "limits": "Teaches document preparation rather than research design or argument quality. A working LaTeX document does not establish that a manuscript meets a venue's current submission requirements.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes",
+      "source_note": "Official tutorial content and worked examples inspected, including first document, images, mathematics, sections, and tables.",
+      "primary_source": true,
+      "tags": [
+        "LaTeX",
+        "beginner",
+        "typesetting",
+        "figures",
+        "tables",
+        "mathematics"
+      ]
+    },
+    {
+      "id": "tools-pandoc-manual",
+      "title": "Pandoc User's Guide",
+      "provider": "Pandoc",
+      "url": "https://pandoc.org/MANUAL.html",
+      "category": "tools-workflow",
+      "resource_type": "documentation",
+      "tasks": [
+        "convert manuscript formats",
+        "render Markdown citations",
+        "configure bibliographies",
+        "adapt output templates"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Command-line reference for document conversion, Markdown authoring, templates, bibliography data, and citation rendering with citeproc.",
+      "how_to_use": "Keep a source manuscript and checked bibliography together. Test conversion to the required output format, configure a citation style, and visually inspect the resulting document.",
+      "limits": "The manual explicitly warns that conversions can lose formatting or unsupported structures. Complex tables, equations, references, and venue layout require inspection after conversion. Citation rendering does not establish source truth.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://pandoc.org/MANUAL.html#citations",
+      "source_note": "Official manual inspected for conversion limits, output options, templates, and citeproc bibliography requirements.",
+      "primary_source": true,
+      "tags": [
+        "Pandoc",
+        "Markdown",
+        "conversion",
+        "citeproc",
+        "CSL",
+        "local-workflow"
+      ]
+    },
+    {
+      "id": "tools-zotero-basics",
+      "title": "The Basics: Zotero Quick Start Guide",
+      "provider": "Zotero",
+      "url": "https://www.zotero.org/support/quick_start_guide",
+      "category": "tools-workflow",
+      "resource_type": "documentation",
+      "tasks": [
+        "organize research sources",
+        "manage bibliographic metadata",
+        "attach reading notes",
+        "collect references"
+      ],
+      "profiles": [
+        "empirical-ml",
+        "theory",
+        "clinical",
+        "systematic-review"
+      ],
+      "summary": "Official introduction to Zotero's reference library, collections, tags, searches, attachments, notes, and capture of bibliographic records.",
+      "how_to_use": "Create a collection for the manuscript, attach reading notes to source records, and review each item's author, title, date, and identifiers against the original source.",
+      "limits": "Collecting a record is not evidence that the source is reliable or supports a claim. Automatically captured metadata and attachments still require inspection; a reference manager does not replace a systematic search protocol.",
+      "access": "open-web",
+      "inspection_level": "page-content",
+      "verified_at": "2026-10-30",
+      "verification_url": "https://www.zotero.org/support/quick_start_guide",
+      "source_note": "Official guide inspected for item metadata, collections, tags, notes, attachments, and Zotero Connector capture.",
+      "primary_source": true,
+      "tags": [
+        "Zotero",
+        "reference-management",
+        "local-library",
+        "notes",
+        "metadata"
+      ]
+    }
+  ]
+}

@@ -24,7 +24,7 @@ TEXT_SUFFIXES = {".py", ".md", ".json", ".jsonl", ".yaml", ".yml", ".txt"}
 SKIP_PARTS = {"__pycache__", ".git", ".pytest_cache", "archive", "node_modules"}
 TESTS = {
     "test_paper_harness.py", "test_packet_invariants.py", "test_scoring.py",
-    "test_scoring_v2.py", "test_scoring_v2_independent.py", "test_library.py",
+    "test_scoring_v2.py", "test_scoring_v2_independent.py", "test_library.py", "test_writing_resources.py",
 }
 METADATA_KEYS = {
     "id", "title", "authors", "venue", "year", "url", "doi", "pmid", "pmcid",
@@ -148,6 +148,10 @@ def selected_sources(source):
             path = source / "research" / "historical-2022" / (stem + suffix)
             if path.is_file():
                 files.append(path)
+    for name in ("independent-audit.md", "selection-audit.json"):
+        path = source / "research" / "writing-support" / name
+        if path.is_file():
+            files.append(path)
     return files
 
 
@@ -231,6 +235,15 @@ def readme(build):
         "are listed in the corpus requirements file.\n\n"
         if (build / "research/library-10000/papers.jsonl").is_file() else ""
     )
+    support_note = (
+        "## Writing support\n\n"
+        "The [task-by-task support guide](paper-writing/references/writing-support-guide.md) "
+        "and [annotated catalog](paper-writing/references/writing-resources.md) cover selected "
+        "university guides, manuals, courses, reporting standards and tools. The structured "
+        "JSON catalog records checked sources, access and inspection limits. Support guidance "
+        "is maintained separately from the historical paper index and may be newer.\n\n"
+        if (build / "paper-writing/references/writing-resources.json").is_file() else ""
+    )
     return (
         "# Paper writing toolkit\n\n"
         "A portable scientific writing skill, mechanical manuscript audit, independent reviewer "
@@ -250,7 +263,7 @@ def readme(build):
         "The manuscript rubric defines 24 anchored criteria across five domains, with empirical ML, "
         "theory, clinical, and systematic-review contribution profiles. Choose the relevant profile, "
         "supply inspected evidence and rationale, and report coverage and blockers alongside scores.\n\n"
-        + policy_note +
+        + policy_note + support_note +
         "## Historical citations and access\n\n"
         + library_note +
         "`research/historical-2022/papers.jsonl` contains 300 stable citation IDs with authors, "
