@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="capabilities-title capabilities-desc">
+  <title id="capabilities-title">What the lab includes</title>
+  <desc id="capabilities-desc">Dark-theme version. Four cards. 01 Write, agent skill: guides an agent you run, for example Claude Code or Codex, to draft and revise with claims tied to evidence; file paper-writing/SKILL.md. 02 Check, offline checks: missing sections, word limits, unregistered citations, locked facts, terms and placeholders; command paper_harness.py audit. 03 Review and score, reviewer packets: role-scoped packets for separate reviewers, blind reader first, and optional editorial scoring; 10 roles and 24 criteria. 04 Learn, reference desk: primary-source writing resources by task and a citation-metadata library from 2018 to 2022; 42 resources and 10,000 records.</desc>
+  <style>
+    .bg { fill: #202b27; }
+    .frame { fill: none; stroke: #3e4c44; }
+    .serif { font-family: Georgia, 'Times New Roman', Times, serif; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .card { fill: #17221c; stroke: #52604b; }
+    .card-top { fill: #f5f3ec; }
+    .eyebrow { font-size: 13px; font-weight: 500; letter-spacing: 1.6px; fill: #aabafe; }
+    .heading { font-size: 27px; letter-spacing: -0.4px; fill: #f5f3ec; }
+    .detail { font-size: 15.5px; fill: #b3bdae; }
+    .rule { stroke: #3e4c44; stroke-width: 1; }
+    .footer { font-size: 12.5px; font-weight: 500; fill: #f5f3ec; }
+    .figure { fill: #aabafe; }
+  </style>
+
+  <rect class="bg" width="1280" height="300"/>
+  <rect class="frame" x="0.5" y="0.5" width="1279" height="299"/>
+
+  <!-- Card frames (x = 64, 358, 652, 946; width 270) -->
+  <g aria-hidden="true">
+    <rect class="card" x="64.5" y="24.5" width="270" height="252"/>
+    <rect class="card" x="358.5" y="24.5" width="270" height="252"/>
+    <rect class="card" x="652.5" y="24.5" width="270" height="252"/>
+    <rect class="card" x="946.5" y="24.5" width="270" height="252"/>
+    <rect class="card-top" x="64" y="24" width="271" height="2"/>
+    <rect class="card-top" x="358" y="24" width="271" height="2"/>
+    <rect class="card-top" x="652" y="24" width="271" height="2"/>
+    <rect class="card-top" x="946" y="24" width="271" height="2"/>
+    <line class="rule" x1="88" y1="220" x2="311" y2="220"/>
+    <line class="rule" x1="382" y1="220" x2="605" y2="220"/>
+    <line class="rule" x1="676" y1="220" x2="899" y2="220"/>
+    <line class="rule" x1="970" y1="220" x2="1193" y2="220"/>
+  </g>
+
+  <!-- 01 Write -->
+  <text class="mono eyebrow" x="88" y="62">01 / WRITE</text>
+  <text class="serif heading" x="88" y="102">Agent skill</text>
+  <text class="sans detail" x="88" y="134">Guides an agent you run</text>
+  <text class="sans detail" x="88" y="156">(e.g. Claude Code, Codex)</text>
+  <text class="sans detail" x="88" y="178">to draft and revise with</text>
+  <text class="sans detail" x="88" y="200">claims tied to evidence.</text>
+  <text class="mono footer" x="88" y="250">paper-writing/SKILL.md</text>
+
+  <!-- 02 Check -->
+  <text class="mono eyebrow" x="382" y="62">02 / CHECK</text>
+  <text class="serif heading" x="382" y="102">Offline checks</text>
+  <text class="sans detail" x="382" y="134">Missing sections, word</text>
+  <text class="sans detail" x="382" y="156">limits, unregistered</text>
+  <text class="sans detail" x="382" y="178">citations, locked facts,</text>
+  <text class="sans detail" x="382" y="200">terms and placeholders.</text>
+  <text class="mono footer" x="382" y="250">paper_harness.py audit</text>
+
+  <!-- 03 Review & score -->
+  <text class="mono eyebrow" x="676" y="62">03 / REVIEW &amp; SCORE</text>
+  <text class="serif heading" x="676" y="102">Reviewer packets</text>
+  <text class="sans detail" x="676" y="134">Role-scoped packets for</text>
+  <text class="sans detail" x="676" y="156">separate reviewers, blind</text>
+  <text class="sans detail" x="676" y="178">reader first; optional</text>
+  <text class="sans detail" x="676" y="200">editorial scoring.</text>
+  <text class="mono footer" x="676" y="250"><tspan class="figure">10</tspan> roles · <tspan class="figure">24</tspan> criteria</text>
+
+  <!-- 04 Learn -->
+  <text class="mono eyebrow" x="970" y="62">04 / LEARN</text>
+  <text class="serif heading" x="970" y="102">Reference desk</text>
+  <text class="sans detail" x="970" y="134">Primary-source writing</text>
+  <text class="sans detail" x="970" y="156">resources by task, and a</text>
+  <text class="sans detail" x="970" y="178">citation-metadata library</text>
+  <text class="sans detail" x="970" y="200">from 2018–2022.</text>
+  <text class="mono footer" x="970" y="250"><tspan class="figure">42</tspan> resources · <tspan class="figure">10,000</tspan> records</text>
+</svg>

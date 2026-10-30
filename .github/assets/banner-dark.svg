@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="banner-title banner-desc">
+  <title id="banner-title">Paper Review &amp; Writing Assistant Lab</title>
+  <desc id="banner-desc">Dark-theme version. Banner. The name Paper Review &amp; Writing Assistant Lab with the tagline: Write, check, review and revise, evidence first. A strip lists the parts: agent skill, offline Python harness, 24-criterion rubric, no AI backend. On the right, an illustrative manuscript page carries margin notes that link a claim to its evidence, mark a locked fact and flag a citation that is still needed.</desc>
+  <style>
+    .bg { fill: #202b27; }
+    .frame { fill: none; stroke: #3e4c44; }
+    .serif { font-family: Georgia, 'Times New Roman', Times, serif; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .eyebrow { font-size: 14px; font-weight: 500; letter-spacing: 2.4px; fill: #b3bdae; }
+    .title { font-size: 64px; letter-spacing: -1.6px; fill: #f5f3ec; }
+    .title-em { font-style: italic; fill: #aabafe; }
+    .tagline { font-size: 25px; fill: #f5f3ec; }
+    .strip { font-size: 13px; font-weight: 500; letter-spacing: 1.5px; fill: #b3bdae; }
+    .rule { stroke: #3e4c44; stroke-width: 1; }
+    .mark { fill: #294edb; }
+    .mark-glyph { fill: none; stroke: #fffefa; stroke-width: 2.2; stroke-linejoin: round; }
+    .grid { fill: none; stroke: #26322d; stroke-width: 1; }
+    .shadow { fill: #141c18; }
+    .sheet { fill: #17221c; stroke: #52604b; }
+    .sheet-label { font-size: 12px; font-weight: 500; letter-spacing: 1.4px; fill: #b3bdae; }
+    .sheet-flag { font-size: 12px; font-weight: 500; letter-spacing: 1.4px; fill: #aabafe; }
+    .sheet-heading { font-size: 22px; fill: #f5f3ec; }
+    .text-line { fill: #3a4840; }
+    .margin-rule { stroke: #3e4c44; stroke-dasharray: 3 4; }
+    .accent-stroke { fill: none; stroke: #aabafe; stroke-width: 2; }
+    .accent-dash { fill: none; stroke: #aabafe; stroke-width: 2; stroke-dasharray: 5 4; }
+    .claim-tint { fill: #24305a; }
+    .note { font-size: 12.5px; font-weight: 500; fill: #aabafe; }
+    .note-sub { font-size: 11.5px; fill: #b3bdae; }
+  </style>
+  <defs>
+    <pattern id="banner-grid" width="48" height="36" patternUnits="userSpaceOnUse" x="826" y="0">
+      <path class="grid" d="M48 0H0V36"/>
+    </pattern>
+  </defs>
+
+  <rect class="bg" width="1280" height="360"/>
+  <rect class="grid-field" x="826" y="0" width="454" height="360" fill="url(#banner-grid)"/>
+  <rect class="frame" x="0.5" y="0.5" width="1279" height="359"/>
+
+  <!-- Brand mark and eyebrow -->
+  <g transform="translate(72 48)">
+    <rect class="mark" width="34" height="34" rx="7"/>
+    <path class="mark-glyph" d="M9.5 6.5h10.5l5 5v16h-15.5zM20 6.5v5h5M13 17.5h8.5M13 22h5.5"/>
+  </g>
+  <text class="mono eyebrow" x="122" y="70">EVIDENCE BEFORE ELOQUENCE</text>
+
+  <!-- Name -->
+  <text class="serif title" x="69" y="156">Paper Review &amp; Writing</text>
+  <text class="serif title title-em" x="76" y="224">Assistant Lab</text>
+
+  <!-- Tagline -->
+  <text class="sans tagline" x="72" y="272">Write, check, review and revise — evidence first.</text>
+
+  <!-- Parts strip -->
+  <line class="rule" x1="72" y1="298" x2="792" y2="298"/>
+  <text class="mono strip" x="72" y="326">AGENT SKILL · OFFLINE PYTHON HARNESS · 24-CRITERION RUBRIC · NO AI BACKEND</text>
+
+  <!-- Illustrative manuscript page with annotations -->
+  <g transform="rotate(-1.2 1028 180)" aria-hidden="true">
+    <rect class="shadow" x="850" y="52" width="372" height="272"/>
+    <rect class="sheet" x="842.5" y="44.5" width="372" height="272"/>
+
+    <text class="mono sheet-label" x="866" y="74">MANUSCRIPT / REV 04</text>
+    <text class="mono sheet-flag" x="1190" y="74" text-anchor="end">DRAFT</text>
+    <line class="rule" x1="866" y1="88" x2="1190" y2="88"/>
+    <text class="serif sheet-heading" x="866" y="122">Abstract</text>
+
+    <line class="margin-rule" x1="1078" y1="104" x2="1078" y2="296"/>
+
+    <!-- Text column -->
+    <rect class="text-line" x="866" y="140" width="196" height="6"/>
+    <rect class="claim-tint" x="862" y="154" width="204" height="30"/>
+    <rect class="text-line" x="866" y="158" width="190" height="6"/>
+    <rect class="text-line" x="866" y="174" width="168" height="6"/>
+    <rect class="text-line" x="866" y="192" width="200" height="6"/>
+    <rect class="text-line" x="866" y="210" width="62" height="6"/>
+    <rect class="accent-stroke" x="934" y="205" width="44" height="16"/>
+    <rect class="text-line" x="866" y="228" width="184" height="6"/>
+    <rect class="text-line" x="866" y="246" width="120" height="6"/>
+    <line class="accent-dash" x1="992" y1="258" x2="1060" y2="258"/>
+    <rect class="text-line" x="992" y="246" width="68" height="6"/>
+    <rect class="text-line" x="866" y="264" width="198" height="6"/>
+    <rect class="text-line" x="866" y="282" width="132" height="6"/>
+
+    <!-- Claim bracket and leaders -->
+    <path class="accent-stroke" d="M858 154h-4v30h4"/>
+    <path class="accent-stroke" d="M1066 169H1088"/>
+    <path class="accent-stroke" d="M978 213H1088"/>
+    <path class="accent-stroke" d="M1060 258H1088"/>
+
+    <!-- Margin notes -->
+    <text class="mono note" x="1094" y="166">C2 → E4</text>
+    <text class="mono note-sub" x="1094" y="182">supported</text>
+    <text class="mono note" x="1094" y="210">LOCKED</text>
+    <text class="mono note-sub" x="1094" y="226">fact matches</text>
+    <text class="mono note" x="1094" y="255">[CITATION</text>
+    <text class="mono note" x="1094" y="271">NEEDED]</text>
+  </g>
+</svg>

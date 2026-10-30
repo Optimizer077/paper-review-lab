@@ -1,10 +1,13 @@
-# Paper Review Lab
+# Paper Review & Writing Assistant Lab
 
-A buildless GitHub Pages site with an evidence-backed manuscript workbench,
-24 anchored criteria, four contribution profiles, aggressive scoring, and a
+A buildless GitHub Pages site for writing and reviewing manuscripts with
+evidence first: an evidence-backed review workbench with 24 anchored criteria,
+four contribution profiles and aggressive scoring; a writing assistant page for
+the paper-writing agent skill and offline harness; a writing-support hub; and a
 searchable collection of 10,000 historical citation records from 2018–2022.
 
 [Live site](https://optimizer077.github.io/paper-review-lab/) ·
+[Writing assistant](https://optimizer077.github.io/paper-review-lab/writing.html) ·
 [Repository quick start](../README.md) ·
 [Toolkit download](downloads/paper-review-lab.zip)
 
@@ -15,9 +18,13 @@ fetches in many browsers:
 python -m http.server 8765 --directory docs
 ```
 
-Open `http://localhost:8765`. All CSS, JavaScript and data files are local to the
-site. Assessment entries and imported JSON remain in the tab; export before
-closing it. The website does not read manuscripts or call an AI service.
+Open `http://localhost:8765`. All CSS, JavaScript and data files are served from
+this folder. The only external resources are Google Fonts: the stylesheet that
+`site.css` imports from fonts.googleapis.com and the DM Sans and IBM Plex Mono
+font files it loads from fonts.gstatic.com. Without them the pages fall back to
+Arial or the system sans-serif, and Consolas or the system monospace.
+Assessment entries and imported JSON remain in the tab; export before closing
+it. The website does not read manuscripts or call an AI service.
 
 ## Verification
 
@@ -51,6 +58,22 @@ an objective venue ranking or a representative paper sample.
 arithmetic. It is not a real-paper assessment. Aggressive thresholds are original
 editorial conventions with no prospective real-manuscript calibration; scores
 are not acceptance predictions or scientific certification.
+
+## Writing assistant page
+
+`writing.html` is static guidance for the paper-writing agent skill
+(`toolkit/paper-writing/SKILL.md`) and the offline harness. It explains the
+five-step workflow (claim ledger, section drafting, mechanical audit, reviewer
+packets with a blind reader first, optional scoring and revision), how to
+install the skill for Claude Code or Codex, and six copy-paste prompts. It uses
+`site.css`, `resources.css` and `writing.css`. A small `writing.js` only adds
+local clipboard copy buttons; without JavaScript the commands and prompts remain
+selectable text. The page has no backend. It does not read, write or review
+manuscripts, and nothing on it calls an AI service. The skill runs inside an
+agent the reader operates. Keep its commands in step with
+`toolkit/paper-writing/references/harness-guide.md`, and re-check the Claude Code
+(`~/.claude/skills/`) and Codex (`~/.agents/skills/`) skill locations when their
+documentation changes.
 
 ## Writing support hub
 

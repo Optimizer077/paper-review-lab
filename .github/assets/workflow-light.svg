@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="464" viewBox="0 0 1280 464" role="img" aria-labelledby="workflow-title workflow-desc">
+  <title id="workflow-title">The writing and review loop</title>
+  <desc id="workflow-desc">Five steps in a loop. 01 Plan context: a project.json context file records claims, sources, terminology, locked facts and sections. 02 Draft or revise: the paper-writing agent skill, used in an agent you run, such as Claude Code or Codex. 03 Audit: the offline harness runs mechanical checks on citations, locked facts, terms and placeholders. 04 Review: the offline harness writes 10 reviewer-role packets; the blind reader goes first, then reports are merged. 05 Score: the offline scorer rates 24 anchored criteria; scoring is optional, uncalibrated and editorial. An arrow returns from Score to Draft or revise: revise, re-audit and make a new plan; stale reviews are rejected by hash. Caption: No AI backend. The skill runs inside an agent you operate; the harness and scorer run offline and dispatch no agents. Packets are review tasks, not completed reviews. Scores are editorial summaries, not acceptance predictions.</desc>
+  <style>
+    .bg { fill: #f5f3ec; }
+    .frame { fill: none; stroke: #d9dcd2; }
+    .serif { font-family: Georgia, 'Times New Roman', Times, serif; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .eyebrow { font-size: 13px; font-weight: 500; letter-spacing: 2.2px; fill: #5b655e; }
+    .heading { font-size: 38px; letter-spacing: -0.8px; fill: #202b27; }
+    .heading-em { font-style: italic; fill: #294edb; }
+    .track { stroke: #202b27; stroke-width: 1.5; }
+    .arrowhead { fill: #202b27; }
+    .node { fill: #202b27; }
+    .node-num { font-size: 13px; font-weight: 500; fill: #f5f3ec; }
+    .node-accent { fill: #294edb; }
+    .node-num-accent { fill: #fffefa; }
+    .tag { font-size: 12px; font-weight: 500; letter-spacing: 1.3px; fill: #294edb; }
+    .step { font-size: 22px; font-weight: 600; fill: #202b27; }
+    .detail { font-size: 15.5px; fill: #5b655e; }
+    .loop { fill: none; stroke: #294edb; stroke-width: 2; }
+    .loop-head { fill: #294edb; }
+    .loop-label-bg { fill: #f5f3ec; }
+    .loop-label { font-size: 13px; font-weight: 500; letter-spacing: 1px; fill: #294edb; }
+    .rule { stroke: #d9dcd2; stroke-width: 1; }
+    .caption { font-size: 15px; fill: #5b655e; }
+    .caption-strong { font-weight: 600; fill: #202b27; }
+  </style>
+
+  <rect class="bg" width="1280" height="464"/>
+  <rect class="frame" x="0.5" y="0.5" width="1279" height="463"/>
+
+  <!-- Heading -->
+  <text class="mono eyebrow" x="64" y="56">THE WRITING AND REVIEW LOOP</text>
+  <text class="serif heading" x="62" y="104">Write, check, review — <tspan class="heading-em">then revise.</tspan></text>
+
+  <!-- Track with arrows between the five nodes (nodes at x = 64, 294.4, 524.8, 755.2, 985.6) -->
+  <g aria-hidden="true">
+    <line class="track" x1="102" y1="150" x2="282" y2="150"/>
+    <path class="arrowhead" d="M289.4 150l-11 -5.5v11z"/>
+    <line class="track" x1="332.4" y1="150" x2="512.8" y2="150"/>
+    <path class="arrowhead" d="M519.8 150l-11 -5.5v11z"/>
+    <line class="track" x1="562.8" y1="150" x2="743.2" y2="150"/>
+    <path class="arrowhead" d="M750.2 150l-11 -5.5v11z"/>
+    <line class="track" x1="793.2" y1="150" x2="973.6" y2="150"/>
+    <path class="arrowhead" d="M980.6 150l-11 -5.5v11z"/>
+
+    <rect class="node" x="64" y="134" width="32" height="32"/>
+    <rect class="node-accent" x="294.4" y="134" width="32" height="32"/>
+    <rect class="node" x="524.8" y="134" width="32" height="32"/>
+    <rect class="node" x="755.2" y="134" width="32" height="32"/>
+    <rect class="node" x="985.6" y="134" width="32" height="32"/>
+  </g>
+  <g class="mono node-num" text-anchor="middle">
+    <text x="80" y="155">01</text>
+    <text class="node-num-accent" x="310.4" y="155">02</text>
+    <text x="540.8" y="155">03</text>
+    <text x="771.2" y="155">04</text>
+    <text x="1001.6" y="155">05</text>
+  </g>
+
+  <!-- 01 Plan context -->
+  <text class="mono tag" x="64" y="200">CONTEXT FILE</text>
+  <text class="sans step" x="64" y="231">Plan context</text>
+  <text class="sans detail" x="64" y="259">project.json: claims,</text>
+  <text class="sans detail" x="64" y="281">sources, terminology,</text>
+  <text class="sans detail" x="64" y="303">locked facts, sections</text>
+
+  <!-- 02 Draft / revise -->
+  <text class="mono tag" x="294.4" y="200">AGENT SKILL</text>
+  <text class="sans step" x="294.4" y="231">Draft / revise</text>
+  <text class="sans detail" x="294.4" y="259">paper-writing skill in</text>
+  <text class="sans detail" x="294.4" y="281">an agent you run, such</text>
+  <text class="sans detail" x="294.4" y="303">as Claude Code or Codex</text>
+
+  <!-- 03 Audit -->
+  <text class="mono tag" x="524.8" y="200">OFFLINE HARNESS</text>
+  <text class="sans step" x="524.8" y="231">Audit</text>
+  <text class="sans detail" x="524.8" y="259">Mechanical checks:</text>
+  <text class="sans detail" x="524.8" y="281">citations, locked facts,</text>
+  <text class="sans detail" x="524.8" y="303">terms, placeholders</text>
+
+  <!-- 04 Review -->
+  <text class="mono tag" x="755.2" y="200">OFFLINE HARNESS</text>
+  <text class="sans step" x="755.2" y="231">Review</text>
+  <text class="sans detail" x="755.2" y="259">10 reviewer-role packets;</text>
+  <text class="sans detail" x="755.2" y="281">the blind reader goes</text>
+  <text class="sans detail" x="755.2" y="303">first, then merge</text>
+
+  <!-- 05 Score -->
+  <text class="mono tag" x="985.6" y="200">OFFLINE SCORER</text>
+  <text class="sans step" x="985.6" y="231">Score</text>
+  <text class="sans detail" x="985.6" y="259">24 anchored criteria;</text>
+  <text class="sans detail" x="985.6" y="281">optional, uncalibrated</text>
+  <text class="sans detail" x="985.6" y="303">editorial summary</text>
+
+  <!-- Return loop: Score back to Draft / revise -->
+  <g aria-hidden="true">
+    <path class="loop" d="M1001.6 318V346H310.4V327"/>
+    <path class="loop-head" d="M310.4 316l-6 11h12z"/>
+  </g>
+  <rect class="loop-label-bg" x="386" y="334" width="540" height="24"/>
+  <text class="mono loop-label" x="656" y="351" text-anchor="middle">REVISE, RE-AUDIT, NEW PLAN · STALE REVIEWS ARE REJECTED BY HASH</text>
+
+  <!-- Caption -->
+  <line class="rule" x1="64" y1="384" x2="1216" y2="384"/>
+  <text class="sans caption" x="64" y="414"><tspan class="caption-strong">No AI backend.</tspan> The skill runs inside an agent you operate; the harness and scorer run offline and dispatch no agents.</text>
+  <text class="sans caption" x="64" y="438">Packets are review tasks, not completed reviews. Scores are editorial summaries, not acceptance predictions.</text>
+</svg>
